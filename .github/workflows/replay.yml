@@ -30,7 +30,7 @@ jobs:
           python -I -B - "$GITHUB_WORKSPACE/checks/results" "$RUNNER_TEMP/out" <<'PY'
           import json, sys
           from pathlib import Path
-          IGN = {"python_version", "elapsed_seconds", "python", "work_directory", "runtime_s"}
+          IGN = {"python_version", "elapsed_seconds", "python", "work_directory", "runtime_s", "seconds"}
           def s(x):
               if isinstance(x, dict): return {k: s(v) for k, v in x.items() if k not in IGN}
               if isinstance(x, list): return [s(v) for v in x]
