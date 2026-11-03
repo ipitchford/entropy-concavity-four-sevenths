@@ -1,0 +1,203 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 3 November 2026 for 0.1.0-candidate from the first internal novelty gate (2 Nov 2026, bundle NOVELTY_REPORT), the internal review searches of 3 Nov 2026 (REVIEW_SUMMARY.md) and registry retrieval of every reference. It records scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "Theorem A: local concavity in a uniform relative-density neighbourhood for every q<4/7",
+   "unit": "statement",
+   "paperLocation": "Section 2.3; Part I",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "arXiv, Crossref, web search, Luo/Schubr/Abu-Ajamieh full texts (first internal novelty gate, formula-first fingerprints of the coefficient sequences and generating functions)",
+     "query": "Ball-Nayar-Tkocz entropy concavity Gaussian smoothing; mixing-weight entropy concavity near Gaussian; 4/7 signal fraction; Luo Problems 10.2 10.3; Hermite perturbation entropy curvature"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers: Semantic Scholar, arXiv listings, web and GitHub search, Crossref, citers of arXiv:2609.11418",
+     "query": "citations of Luo 2609.11418; Problem 10.3 solutions; entropy concavity critical signal fraction; Ornstein-Uhlenbeck interpolation bounded inputs"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "Evidence Press feed (212 releases) and batches 2026-10-27..10-31b",
+     "query": "entropy|Ball-Nayar|Tkocz|Luo|Schubr|concavit|Ornstein|Hermite|Mehler"
+    }
+   ],
+   "closestPriorWork": "Schubr 2026 Theorem 1.1 (q<1/2); Luo 2026 Theorem F.1/Cor. F.2 (interpolation for L^2(dx) inputs); Abu-Ajamieh 2026 Thm 8.1 (single He_4 direction, q<=5/8)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Corollary: sup C = 4/7",
+   "unit": "statement",
+   "paperLocation": "Section 2.3",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "arXiv, Crossref, web search, Luo/Schubr/Abu-Ajamieh full texts (first internal novelty gate, formula-first fingerprints of the coefficient sequences and generating functions)",
+     "query": "Ball-Nayar-Tkocz entropy concavity Gaussian smoothing; mixing-weight entropy concavity near Gaussian; 4/7 signal fraction; Luo Problems 10.2 10.3; Hermite perturbation entropy curvature"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers: Semantic Scholar, arXiv listings, web and GitHub search, Crossref, citers of arXiv:2609.11418",
+     "query": "citations of Luo 2609.11418; Problem 10.3 solutions; entropy concavity critical signal fraction; Ornstein-Uhlenbeck interpolation bounded inputs"
+    }
+   ],
+   "closestPriorWork": "Luo 2026 (counterexamples for q>4/7; calls 4/7 a method boundary)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorem B: midpoint local minima for q in (4/7,1] with exact gamma(q) and local profile",
+   "unit": "statement",
+   "paperLocation": "Section 2.3; Part II",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "arXiv, Crossref, web search, Luo/Schubr/Abu-Ajamieh full texts (first internal novelty gate, formula-first fingerprints of the coefficient sequences and generating functions)",
+     "query": "Ball-Nayar-Tkocz entropy concavity Gaussian smoothing; mixing-weight entropy concavity near Gaussian; 4/7 signal fraction; Luo Problems 10.2 10.3; Hermite perturbation entropy curvature"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers: Semantic Scholar, arXiv listings, web and GitHub search, Crossref, citers of arXiv:2609.11418",
+     "query": "citations of Luo 2609.11418; Problem 10.3 solutions; entropy concavity critical signal fraction; Ornstein-Uhlenbeck interpolation bounded inputs"
+    }
+   ],
+   "closestPriorWork": "Luo 2026 Appendix E (q>2-sqrt2); GitHub the-omega-institute/trureturing issue 25275 (1 Nov 2026, proposed sign on (4/7,2-sqrt2], no exact constant, excludes q=1)",
+   "verdict": "partially-known-cited",
+   "verdictNote": "partly-prior: sign on (4/7,2-sqrt2] proposed earlier [8]; constant, profile, q=1 and complete proof new-in-bounded-search"
+  },
+  {
+   "claim": "Proposition S: sharpness of the bounded-input interpolation range; 4/7 as fixed point q=b(q/2); Luo's parameter extremal within the Hermite family",
+   "unit": "statement",
+   "paperLocation": "Section III.1",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers: Semantic Scholar, arXiv listings, web and GitHub search, Crossref, citers of arXiv:2609.11418",
+     "query": "citations of Luo 2609.11418; Problem 10.3 solutions; entropy concavity critical signal fraction; Ornstein-Uhlenbeck interpolation bounded inputs"
+    }
+   ],
+   "closestPriorWork": "Luo 2026 Appendix F necessity proof (L^2(dx) inputs, test functions h_{n,a})",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Proposition E: Luo's family strictly concave near t=1/2 at q=4/7",
+   "unit": "statement",
+   "paperLocation": "Section III.2",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers: Semantic Scholar, arXiv listings, web and GitHub search, Crossref, citers of arXiv:2609.11418",
+     "query": "citations of Luo 2609.11418; Problem 10.3 solutions; entropy concavity critical signal fraction; Ornstein-Uhlenbeck interpolation bounded inputs"
+    }
+   ],
+   "closestPriorWork": "none found",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Weighted Gaussian-kernel comparison with Fock-space square root; Hermite-energy absorption; saddle-point coefficient asymptotics",
+   "unit": "method",
+   "paperLocation": "Sections I.1-I.5, II.3",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "arXiv, Crossref, web search, Luo/Schubr/Abu-Ajamieh full texts (first internal novelty gate, formula-first fingerprints of the coefficient sequences and generating functions)",
+     "query": "Ball-Nayar-Tkocz entropy concavity Gaussian smoothing; mixing-weight entropy concavity near Gaussian; 4/7 signal fraction; Luo Problems 10.2 10.3; Hermite perturbation entropy curvature"
+    }
+   ],
+   "closestPriorWork": "Luo 2026 (F.4)-(F.5); Le 2014; Carroll-Gilmore 2021; Schubr 2026 Section 2; standard multivariate saddle-point method",
+   "verdict": "known-cited"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Luo 2026, arXiv:2609.11418v2",
+   "usedFor": "counterexamples, Problems 10.1-10.3, Appendices E and F, construction (M4)-(M21)",
+   "readWhat": "Sections 1, 4-10, Appendices E, F (by reviewers; verbatim problem statements checked)",
+   "date": "2026-11-03",
+   "evidenceLocator": "https://arxiv.org/abs/2609.11418v2"
+  },
+  {
+   "citation": "Schubr 2026, edition 3",
+   "usedFor": "q<1/2 neighbourhood theorem and entropy-energy argument reproduced in Section I.5",
+   "readWhat": "Theorem 1.1, Sections 2.1-2.4",
+   "date": "2026-11-03",
+   "evidenceLocator": "https://research.luminaryoddities.org/local-and-eventual-entropy-concavity-under-gaussian-smoothing/v/3"
+  },
+  {
+   "citation": "Abu-Ajamieh 2026, arXiv:2610.22386v1",
+   "usedFor": "fixed He_4 direction comparison",
+   "readWhat": "Theorems 7.1, 8.1, Remark 7.2",
+   "date": "2026-11-03",
+   "evidenceLocator": "https://arxiv.org/abs/2610.22386v1"
+  },
+  {
+   "citation": "GitHub the-omega-institute/trureturing issue 25275",
+   "usedFor": "priority disclosure for Problem 10.3",
+   "readWhat": "full issue text",
+   "date": "2026-11-03",
+   "evidenceLocator": "https://github.com/the-omega-institute/trureturing/issues/25275"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "q=4/7 membership in C open",
+   "closingQuestion": "Does a known estimate decide the endpoint of Lemma I.2 or give derivative control without extra smoothing?",
+   "triedOrSearched": "Luo F.1 endpoint (L^2(dx) only); Proposition E shows Luo's family is concave near t=1/2; Corollary S.5(4) excludes Hermite families with an exponential gap",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "needs a new estimate or construction",
+   "whyNotClosedNow": "not tractable in this revision"
+  },
+  {
+   "limitation": "Proposition E only near t=1/2",
+   "closingQuestion": "Does Lemma II.5 extend to the endpoints?",
+   "triedOrSearched": "matrix entries lose positivity as w->0",
+   "estimatedCost": "days",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "positivity fails near t in {0,1}",
+   "whyNotClosedNow": "needs a different coefficient argument"
+  },
+  {
+   "limitation": "radius delta_Q not optimal",
+   "closingQuestion": "cheap improvement?",
+   "triedOrSearched": "20 delta instead of 30 delta; sup_n n x^n bound (reviewers)",
+   "estimatedCost": "1 h",
+   "cheap": true,
+   "decision": "OPEN",
+   "reasonOpen": "improves constants only; does not change exponent 9/4 of the proof or the true neighbourhood size",
+   "whyNotClosedNow": "no effect on any claim"
+  },
+  {
+   "limitation": "Renyi entropies, k copies, degree-resolved thresholds, other topologies",
+   "closingQuestion": "cheap corollaries?",
+   "triedOrSearched": "suggested by reviewers",
+   "estimatedCost": "days each",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "new research",
+   "whyNotClosedNow": "outside scope; listed in D.5"
+  }
+ ],
+ "extensionScout": {
+  "by": "five reviewer agents and Astra adversarial review",
+  "date": "2026-11-03",
+  "proposals": [
+   "sharpness of Lemma 2.1 / threshold explanation",
+   "boundary analysis of Luo's family at 4/7",
+   "radius decay rate",
+   "ICA interpretation",
+   "Renyi/k-copy/degree-resolved/topology variants",
+   "interval certificates"
+  ],
+  "actions": [
+   "proved as Proposition S",
+   "proved as Proposition E (near t=1/2)",
+   "proved as Remark R",
+   "added as Discussion D.3",
+   "listed as open problems",
+   "not done; finite-precision checks labelled as such"
+  ]
+ }
+}

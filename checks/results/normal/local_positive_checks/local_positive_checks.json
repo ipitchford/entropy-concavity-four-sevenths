@@ -1,0 +1,1482 @@
+{
+  "scope": "Exact rational constants and 100-decimal diagnostic checks; no claim of formal verification.",
+  "python_optimize_flag": 0,
+  "weighted_kernel_checks_closed_form_P7": [
+    {
+      "q": "0.50",
+      "recipe": "closed_form",
+      "scope": "manuscript (P7) recipe; Section I.7 table",
+      "r": "0.25",
+      "s": "0.520284707521047416499861693054",
+      "epsilon": "0.137582735299077738382686645190",
+      "dyadic_epsilon_index": null,
+      "strict_kernel_gap": "0.0473458333541102280132934323934",
+      "Mehler_kernel_composition_relative_error": "1.2e-99",
+      "direct_square_root_vs_Mehler_relative_error": "5e-100",
+      "J": "1.43205446624685013437067884113",
+      "K": "10321.0871353393781039326361892",
+      "eta": "0.0101423537605237082499308465270",
+      "A_q": "3647.71632014109214204114791759",
+      "sufficient_radius": "0.0000171340078324902541031930202599",
+      "cosine_interpolation_ratios_diagnostic_only": [
+        "0.69829746254052405402",
+        "0.47476952567155693309",
+        "0.30957440274299459047",
+        "0.036024073038996347703",
+        "0.000013989368060901994800",
+        "3.1813832361023213212e-19"
+      ]
+    },
+    {
+      "q": "0.53",
+      "recipe": "closed_form",
+      "scope": "manuscript (P7) recipe; Section I.7 table",
+      "r": "0.265",
+      "s": "0.541905056148553202012644350650",
+      "epsilon": "0.0870079715565194630867302749533",
+      "dyadic_epsilon_index": null,
+      "strict_kernel_gap": "0.0296201831420925837489201176053",
+      "Mehler_kernel_composition_relative_error": "1.2e-99",
+      "direct_square_root_vs_Mehler_relative_error": "5e-100",
+      "J": "1.59028476950495441755672332615",
+      "K": "32787.6224058269779911059506488",
+      "eta": "0.00561559252290245377954922200466",
+      "A_q": "12881.3809700733629406127478927",
+      "sufficient_radius": "0.00000485196425330505892448809432961",
+      "cosine_interpolation_ratios_diagnostic_only": [
+        "0.62881819607144553747",
+        "0.43123307697329243409",
+        "0.29625602451235506392",
+        "0.046172949212785541702",
+        "0.000051703707049370778958",
+        "8.1293612182094233273e-17"
+      ]
+    },
+    {
+      "q": "0.56",
+      "recipe": "closed_form",
+      "scope": "manuscript (P7) recipe; Section I.7 table",
+      "r": "0.28",
+      "s": "0.563320209770334494480258520582",
+      "epsilon": "0.0262722883231254847723140770312",
+      "dyadic_epsilon_index": null,
+      "strict_kernel_gap": "0.00881480137744164652561552918383",
+      "Mehler_kernel_composition_relative_error": "2e-100",
+      "direct_square_root_vs_Mehler_relative_error": "1e-99",
+      "J": "2.12575166515106977255612183721",
+      "K": "459217.131779293328686056572684",
+      "eta": "0.00148223650461361360725826811709",
+      "A_q": "243027.589850959333207584316368",
+      "sufficient_radius": "2.57172447121452971654858669669e-7",
+      "cosine_interpolation_ratios_diagnostic_only": [
+        "0.47042183543529459276",
+        "0.32544779444867002392",
+        "0.23526928685529454305",
+        "0.048913872751163084271",
+        "0.00015552904210204547379",
+        "1.5897490207104710373e-14"
+      ]
+    },
+    {
+      "q": "0.57",
+      "recipe": "closed_form",
+      "scope": "manuscript (P7) recipe; Section I.7 table",
+      "r": "0.285",
+      "s": "0.570416463810403069656199304363",
+      "epsilon": "0.00338758706883503142811345837851",
+      "dyadic_epsilon_index": null,
+      "strict_kernel_gap": "0.00113015181844804919391650142156",
+      "Mehler_kernel_composition_relative_error": "6e-100",
+      "direct_square_root_vs_Mehler_relative_error": "3e-100",
+      "J": "3.53709638916808579932774959526",
+      "K": "30004817.1380216812166917764412",
+      "eta": "0.000182659565966258621140045773071",
+      "A_q": "26518015.6271758285139374303399",
+      "sufficient_radius": "2.35688827092890044618292251423e-9",
+      "cosine_interpolation_ratios_diagnostic_only": [
+        "0.28271776903292050993",
+        "0.19616852010049153391",
+        "0.14420304840667335690",
+        "0.032976223396399205780",
+        "0.00014800960750024543777",
+        "6.0068295141760938416e-14"
+      ]
+    }
+  ],
+  "auxiliary_not_used_by_manuscript": {
+    "endpoint_checks_half_signal_note": {
+      "scope": "auxiliary_not_used_by_manuscript: constants of the superseded half-signal note; excluded from the manuscript claim list.",
+      "geometric_moments": [
+        "4",
+        "12",
+        "84",
+        "876",
+        "12180"
+      ],
+      "sum_B_d_squared": "928",
+      "number_operator_kernel_sum": "133",
+      "second_derivative_kernel_sum": "8126464",
+      "endpoint_radius": "1/30000",
+      "curvature_error_coefficient": "1572/30000 < 1/16"
+    },
+    "dyadic_epsilon_recipe": [
+      {
+        "q": "0.50",
+        "recipe": "dyadic",
+        "scope": "auxiliary_not_used_by_manuscript: alternative dyadic epsilon search",
+        "r": "0.25",
+        "s": "0.520284707521047416499861693054",
+        "epsilon": "0.164442882812158328676087505791",
+        "dyadic_epsilon_index": 1,
+        "strict_kernel_gap": "0.0383256128904455081267281022248",
+        "Mehler_kernel_composition_relative_error": "7e-100",
+        "direct_square_root_vs_Mehler_relative_error": "9e-100",
+        "J": "1.36185243441492152767522816241",
+        "K": "10321.0871353393781039326361892",
+        "eta": "0.0101423537605237082499308465270",
+        "A_q": "3471.83964697895590946562237596",
+        "sufficient_radius": "0.0000180019834886051796303864775064",
+        "cosine_interpolation_ratios_diagnostic_only": [
+          "0.73429394751540726294",
+          "0.49924338532900463156",
+          "0.32553263105504427936",
+          "0.037881075353116992336",
+          "0.000014710504974933307517",
+          "3.3453801285456426527e-19"
+        ]
+      },
+      {
+        "q": "0.53",
+        "recipe": "dyadic",
+        "scope": "auxiliary_not_used_by_manuscript: alternative dyadic epsilon search",
+        "r": "0.265",
+        "s": "0.541905056148553202012644350650",
+        "epsilon": "0.162137090739206977479212661928",
+        "dyadic_epsilon_index": 1,
+        "strict_kernel_gap": "0.00410649715652156181173612554440",
+        "Mehler_kernel_composition_relative_error": "1e-99",
+        "direct_square_root_vs_Mehler_relative_error": "1e-99",
+        "J": "1.34057876214363714877961685206",
+        "K": "32787.6224058269779911059506488",
+        "eta": "0.00561559252290245377954922200466",
+        "A_q": "10868.1718189274190554625170700",
+        "sufficient_radius": "0.00000575073720229131702669570629410",
+        "cosine_interpolation_ratios_diagnostic_only": [
+          "0.74594647344775284111",
+          "0.51155770461467741409",
+          "0.35143883892560504847",
+          "0.054773460515519578261",
+          "0.000061334417767503313020",
+          "9.6435955097858768448e-17"
+        ]
+      },
+      {
+        "q": "0.56",
+        "recipe": "dyadic",
+        "scope": "auxiliary_not_used_by_manuscript: alternative dyadic epsilon search",
+        "r": "0.28",
+        "s": "0.563320209770334494480258520582",
+        "epsilon": "0.0399790136463353213985932189072",
+        "dyadic_epsilon_index": 3,
+        "strict_kernel_gap": "0.00422666883915353443212363214647",
+        "Mehler_kernel_composition_relative_error": "6e-100",
+        "direct_square_root_vs_Mehler_relative_error": "1e-99",
+        "J": "1.90911152405511814658102250090",
+        "K": "459217.131779293328686056572684",
+        "eta": "0.00148223650461361360725826811709",
+        "A_q": "218266.215411055300940487694287",
+        "sufficient_radius": "2.86347568185462482986420501449e-7",
+        "cosine_interpolation_ratios_diagnostic_only": [
+          "0.52380386761058014631",
+          "0.36237861552452173403",
+          "0.26196692649428893979",
+          "0.054464469539690696504",
+          "0.00017317800246971258254",
+          "1.7701488809671021544e-14"
+        ]
+      },
+      {
+        "q": "0.57",
+        "recipe": "dyadic",
+        "scope": "auxiliary_not_used_by_manuscript: alternative dyadic epsilon search",
+        "r": "0.285",
+        "s": "0.570416463810403069656199304363",
+        "epsilon": "0.00497479501777765739500058963496",
+        "dyadic_epsilon_index": 6,
+        "strict_kernel_gap": "0.000600805543906571128252496957754",
+        "Mehler_kernel_composition_relative_error": "1e-99",
+        "direct_square_root_vs_Mehler_relative_error": "1e-99",
+        "J": "3.21219668210330695456648680996",
+        "K": "30004817.1380216812166917764412",
+        "eta": "0.000182659565966258621140045773071",
+        "A_q": "24082210.9254406261622545165973",
+        "sufficient_radius": "2.59527666265785159441893565043e-9",
+        "cosine_interpolation_ratios_diagnostic_only": [
+          "0.31131344029196004150",
+          "0.21601011170385746554",
+          "0.15878855882893632116",
+          "0.036311624799833019023",
+          "0.00016298013479937552166",
+          "6.6143941631333880010e-14"
+        ]
+      }
+    ]
+  },
+  "diagnostic_only": {
+    "auxiliary_bilinear_sharpness": {
+      "scope": "diagnostic_only: auxiliary L2 operator sharpness for the unbounded e_n, which is not an admissible bounded relative-density perturbation; not used by the manuscript.",
+      "formula": "2 * sqrt(binomial(2*n,n)) * (q/2)**(n/2)",
+      "even_degrees": [
+        4,
+        10,
+        20,
+        50,
+        100,
+        200,
+        1000
+      ],
+      "values": [
+        {
+          "q": "0.49",
+          "ratios": [
+            "1.0044103618541576953",
+            "0.75885656047647608882",
+            "0.57861375883830776300",
+            "0.34049368345193428250",
+            "0.17289199242940557663",
+            "0.052961085870536300670",
+            "0.000010958553452620363548"
+          ]
+        },
+        {
+          "q": "0.50",
+          "ratios": [
+            "1.0458250331675944350",
+            "0.83951665141783370109",
+            "0.70815446795054328018",
+            "0.56423129082736544557",
+            "0.47475669140837361029",
+            "0.39934597513330682260",
+            "0.26712552214907747920"
+          ]
+        },
+        {
+          "q": "0.51",
+          "ratios": [
+            "1.0880763645075652501",
+            "0.92689421879717625150",
+            "0.86323634492606833286",
+            "0.92568123799594812723",
+            "1.2778494273173702131",
+            "2.8931202685892050251",
+            "5330.9089506121417436"
+          ]
+        },
+        {
+          "q": "0.56",
+          "ratios": [
+            "1.3118829216054304592",
+            "1.4795151885341327113",
+            "2.1994202855151415355",
+            "9.5919682843083508587",
+            "137.20572345346523596",
+            "33354.280651906294563",
+            "1.0857422027864250719e+24"
+          ]
+        },
+        {
+          "q": "4/7",
+          "ratios": [
+            "1.3659755535250213028",
+            "1.6367752504111129123",
+            "2.6918290107993351426",
+            "15.894828332092824285",
+            "376.76317100490830049",
+            "251503.48624584623715",
+            "2.6466034417093866586e+28"
+          ]
+        },
+        {
+          "q": "0.58",
+          "ratios": [
+            "1.4072621646303150717",
+            "1.7632717952217342259",
+            "3.1239774610196940580",
+            "23.062527322793665860",
+            "793.17781012212113046",
+            "1114674.9320563288249",
+            "4.5259525608191367150e+31"
+          ]
+        }
+      ]
+    }
+  },
+  "number_of_checks": 165,
+  "number_failed": 0,
+  "failed_labels": [],
+  "manuscript_claim_checks": 81,
+  "manuscript_claim_checks_passed": true,
+  "excluded_from_manuscript_claims": [
+    "auxiliary_not_used_by_manuscript",
+    "diagnostic_only"
+  ],
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "label": "q=0.50 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I \u00a74",
+      "passed": true,
+      "detail": "(Decimal('0.25'), Decimal('0.520284707521047416499861693054089816714944392415652103357188106599074304829904777668031013547412537'), Decimal('0.5405694150420948329997233861081796334298887848313042067143762131981486096598095553360620270948250738'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P5), \u00a74"
+    },
+    {
+      "label": "q=0.50 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a74"
+    },
+    {
+      "label": "q=0.50 [closed_form]: B_1,B_2>0",
+      "passed": true,
+      "detail": "(Decimal('0.751236443111462427076696111678506365891190797810300887560513815957455269464459122327025253000882113'), Decimal('0.6755618020847000186289833101708227455834240532573014265003761336479918616307122878509950920239587184'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [closed_form]: E_1,E_2>0 (positivity of (P7))",
+      "passed": true,
+      "detail": "(Decimal('0.275165470598155476765373290380061654144413795713986838117751096426619768154695209361400543717609441'), Decimal('0.4776138050159694612657711544903295768836942085417283391662163658204792266862364629013908522717865110'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P7)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: sqrt(2 beta P_0) = P_0 c",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0473458333541102280132934323933551599667600520612063531369428803205139936592218181942910376186571757",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "1.2E-99",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "5E-100",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.195750598034255594950646688143302506261126435476339914274457785120023449255985728652633061474528612'), Decimal('0.7985822764655726550899895440718615258579508498715072406974566962779692631236809405213162906195392886'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [closed_form]: B_1,B_2 < beta_B (strict (P2))",
+      "passed": true,
+      "detail": "(Decimal('0.751236443111462427076696111678506365891190797810300887560513815957455269464459122327025253000882113'), Decimal('0.6755618020847000186289833101708227455834240532573014265003761336479918616307122878509950920239587184'), Decimal('0.7985822764655726550899895440718615258579508498715072406974566962779692631236809405213162906195392886'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "0.00001713400783249025410319302025991607079361574344239064022996696793633896225538885557849060057985908421",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: binding term of (P21) is 1/(16 A_q)",
+      "passed": true,
+      "detail": "3",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: Section I.7 table s = 0.5202847075 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.520284707521047",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.50 [closed_form]: Section I.7 table eps = 0.1375827353 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.137582735299078",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.50 [closed_form]: Section I.7 table gap = 0.0473458334 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.0473458333541102",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.50 [closed_form]: Section I.7 table J = 1.4320544662 to displayed digits",
+      "passed": true,
+      "detail": "computed 1.43205446624685",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.50 [closed_form]: Section I.7 table radius = 1.7134e-5 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.0000171340078324903",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.50 [closed_form]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.6982974625405240540209785307534416011661459330366354110240344925051428125143581958924835134986289094",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.4747695256715569330876448493410314712387962091750599708374235093078131037564568239657219273113546770",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.3095744027429945904720641301817799480634319995152789160789737783603377242084632676047580645559872166",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.03602407303899634770270377953018530605249300182739815820160200331028618938145461691966906927441722995",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.00001398936806090199479955010809152334546722606686429808079728967197716474604739146689000973207196091407",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [closed_form]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "3.181383236102321321169735227192922176096651479689817104116590238255432952425823738390278988168811321E-19",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I \u00a74",
+      "passed": true,
+      "detail": "(Decimal('0.265'), Decimal('0.541905056148553202012644350649873848220551822274262636342008974720539390401634446870989551241046630'), Decimal('0.5538101122971064040252887012997476964411036445485252726840179494410787808032688937419791024820932602'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P5), \u00a74"
+    },
+    {
+      "label": "q=0.53 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a74"
+    },
+    {
+      "label": "q=0.53 [closed_form]: B_1,B_2>0",
+      "passed": true,
+      "detail": "(Decimal('0.822409367420131122798771578440847589358981684448164292118911303352042358152092956668072715375302216'), Decimal('0.7119958547302469200151221414034848586305842989429150530558572032773185059420778636793921052189004816'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [closed_form]: E_1,E_2>0 (positivity of (P7))",
+      "passed": true,
+      "detail": "(Decimal('0.174015943113038926173460549906560694746716214690423760008690700244553475264862174950442972789614600'), Decimal('0.4712265397993737038933893606298178694281257308222697341513892831311042418600126669941773231378776725'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P7)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: sqrt(2 beta P_0) = P_0 c",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0296201831420925837489201176053153448268009322502373518583537768952788020218661190616201980190092484",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "1.2E-99",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "5E-100",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.273536246130555366845242514162365911130043253199005807070484581850512378013827415926139057822879775'), Decimal('0.8520295505622237065476916960461629341857826166984016439772650802473211601739590757296929133943114644'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [closed_form]: B_1,B_2 < beta_B (strict (P2))",
+      "passed": true,
+      "detail": "(Decimal('0.822409367420131122798771578440847589358981684448164292118911303352042358152092956668072715375302216'), Decimal('0.7119958547302469200151221414034848586305842989429150530558572032773185059420778636793921052189004816'), Decimal('0.8520295505622237065476916960461629341857826166984016439772650802473211601739590757296929133943114644'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "0.000004851964253305058924488094329605642281785585106074527450088407610791924809044216020381985330782842672",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: binding term of (P21) is 1/(16 A_q)",
+      "passed": true,
+      "detail": "3",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: Section I.7 table s = 0.5419050561 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.541905056148553",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.53 [closed_form]: Section I.7 table eps = 0.0870079716 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.0870079715565195",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.53 [closed_form]: Section I.7 table gap = 0.0296201831 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.0296201831420926",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.53 [closed_form]: Section I.7 table J = 1.5902847695 to displayed digits",
+      "passed": true,
+      "detail": "computed 1.59028476950495",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.53 [closed_form]: Section I.7 table radius = 4.8520e-6 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.00000485196425330506",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.53 [closed_form]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.6288181960714455374713293066952849319659926768292969623353956280000130978375767123703718236905143882",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.4312330769732924340916315640470309559548969925212810070116918800035129095560525519595136318593204759",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.2962560245123550639178663633249814528403905340995817090743424842632376718057146572282364144429431690",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.04617294921278554170212697958735556111826419233713307527896109900282893190781400339817792382436515099",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.00005170370704937077895790545185587205330327989266381688887297996673002258462586342698905185751998200357",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [closed_form]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "8.129361218209423327319658154114120664279867636520775361884350243321417175330886718874925420636032972E-17",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I \u00a74",
+      "passed": true,
+      "detail": "(Decimal('0.28'), Decimal('0.5633202097703344944802585205822816681136414692931920288589335134721710117168453804416628618359269775'), Decimal('0.5666404195406689889605170411645633362272829385863840577178670269443420234336907608833257236718539554'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P5), \u00a74"
+    },
+    {
+      "label": "q=0.56 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a74"
+    },
+    {
+      "label": "q=0.56 [closed_form]: B_1,B_2>0",
+      "passed": true,
+      "detail": "(Decimal('0.901118623192364670140837236347159769415253633047570834271235153709560453932034345303942770347240620'), Decimal('0.7492246705475237465113973863739671360449416105000920563816892400779026444376619881763423535764352812'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [closed_form]: E_1,E_2>0 (positivity of (P7))",
+      "passed": true,
+      "detail": "(Decimal('0.052544576646250969544628154062366382312359903824910111375015448518088537918871939059541131329993559'), Decimal('0.4650875700110082997145772597683299113665389079625991983236885389249614069978582320741732727275405755'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P7)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: sqrt(2 beta P_0) = P_0 c",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0088148013774416465256155291838318824655845276038373514608195205223909108355853898870074384357227488",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "2E-100",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "1E-99",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.362616600565763404116574811857705697732708936976433833201381164629844619929452919359118323223892110'), Decimal('0.9099334245698063166664527655309916518808381606514081857320546742319513647676197351909502087829633699'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [closed_form]: B_1,B_2 < beta_B (strict (P2))",
+      "passed": true,
+      "detail": "(Decimal('0.901118623192364670140837236347159769415253633047570834271235153709560453932034345303942770347240620'), Decimal('0.7492246705475237465113973863739671360449416105000920563816892400779026444376619881763423535764352812'), Decimal('0.9099334245698063166664527655309916518808381606514081857320546742319513647676197351909502087829633699'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "2.571724471214529716548586696689787365117599494926161538602344282992760194878069425478360315975344778E-7",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: binding term of (P21) is 1/(16 A_q)",
+      "passed": true,
+      "detail": "3",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: Section I.7 table s = 0.5633202098 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.563320209770334",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.56 [closed_form]: Section I.7 table eps = 0.0262722883 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.0262722883231255",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.56 [closed_form]: Section I.7 table gap = 0.0088148014 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.00881480137744165",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.56 [closed_form]: Section I.7 table J = 2.1257516652 to displayed digits",
+      "passed": true,
+      "detail": "computed 2.12575166515107",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.56 [closed_form]: Section I.7 table radius = 2.5717e-7 to displayed digits",
+      "passed": true,
+      "detail": "computed 2.57172447121453e-7",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.56 [closed_form]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.4704218354352945927554320742990764317985244883498989207131505788324029132163308264869902010911044919",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.3254477944486700239229651739525653575778910028007489191247808440742364869852951539532927829809052837",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.2352692868552945430464210781660330076166766193633692059878721229863276641719684190701962358832968479",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.04891387275116308427081934879354969036522102502122703526530763821512889273373739194634538133582035397",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.0001555290421020454737886257757549682533579855832109653296539236197192450317450674368240603962074028738",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [closed_form]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "1.589749020710471037290346421645031785181595540721353057636173963719436070727995178603730135826418024E-14",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I \u00a74",
+      "passed": true,
+      "detail": "(Decimal('0.285'), Decimal('0.5704164638104030696561993043626009994235353775620429160176495116116260469958712486986854764988620695'), Decimal('0.5708329276208061393123986087252019988470707551240858320352990232232520939917424973973709529977241393'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P5), \u00a74"
+    },
+    {
+      "label": "q=0.57 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a74"
+    },
+    {
+      "label": "q=0.57 [closed_form]: B_1,B_2>0",
+      "passed": true,
+      "detail": "(Decimal('0.929234553562860899286075500335977997709112836777112864943872618193659377790535111362152193044222463'), Decimal('0.7618276363258584548385259253264859576804692824334400078113973276569881972200638231592661501163358097'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [closed_form]: E_1,E_2>0 (positivity of (P7))",
+      "passed": true,
+      "detail": "(Decimal('0.006775174137670062856226916757015886622825802739307496108106239701956819827449805849756462706944122'), Decimal('0.4630928503178787182455684619597007806488122063028148675250380639563992799255850563547639960928522461'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P7)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: sqrt(2 beta P_0) = P_0 c",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0011301518184480491939165014215628088992057369216571460009233311925806030275167886221138509261003454",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "6E-100",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "3E-100",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.395213811532563569970487940222890658087188497231744853344548278750420191484876495676520370045129338'), Decimal('0.9303647053813089484799920017575408066083185736987700109447959493862399808180518999842660439703228092'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [closed_form]: B_1,B_2 < beta_B (strict (P2))",
+      "passed": true,
+      "detail": "(Decimal('0.929234553562860899286075500335977997709112836777112864943872618193659377790535111362152193044222463'), Decimal('0.7618276363258584548385259253264859576804692824334400078113973276569881972200638231592661501163358097'), Decimal('0.9303647053813089484799920017575408066083185736987700109447959493862399808180518999842660439703228092'))",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "2.356888270928900446182922514229277178894314417687149536672157158440429565134104368729405717670567409E-9",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: binding term of (P21) is 1/(16 A_q)",
+      "passed": true,
+      "detail": "3",
+      "group": "manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: Section I.7 table s = 0.5704164638 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.570416463810403",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.57 [closed_form]: Section I.7 table eps = 0.0033875871 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.00338758706883503",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.57 [closed_form]: Section I.7 table gap = 0.0011301518 to displayed digits",
+      "passed": true,
+      "detail": "computed 0.00113015181844805",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.57 [closed_form]: Section I.7 table J = 3.5370963892 to displayed digits",
+      "passed": true,
+      "detail": "computed 3.53709638916809",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.57 [closed_form]: Section I.7 table radius = 2.3569e-9 to displayed digits",
+      "passed": true,
+      "detail": "computed 2.35688827092890e-9",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "q=0.57 [closed_form]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.2827177690329205099329690515849890885398649472001276775028356942537771794648392986187802981647348308",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.1961685201004915339088321275380651975086416957470747099154181456677442055957997725341179915362649516",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.1442030484066733568991408145674522044114663255706447936196615226906417480374638545912890607580593384",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.03297622339639920577981067505234602237469564732738186608019130662954448523196757002669777391830910286",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.0001480096075002454377671055492912587439157553254384398405552507159169377772413924096144426163972193186",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [closed_form]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "6.006829514176093841619439692533481622349193110691923459049976940555109300353095209457341185495206906E-14",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "four Section I.7 table rows evaluated",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part I \u00a77 table"
+    },
+    {
+      "label": "half-signal geometric moments 4,12,84,876,12180",
+      "passed": true,
+      "detail": "['4', '12', '84', '876', '12180']",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "half-signal sum B_d^2 = 928",
+      "passed": true,
+      "detail": "928",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "half-signal number-operator kernel sum = 133",
+      "passed": true,
+      "detail": "133",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "half-signal second-derivative kernel sum = 8126464",
+      "passed": true,
+      "detail": "8126464",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "half-signal 133 < 12^2",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "half-signal 8126464 < 3000^2",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "half-signal 1572/30000 < 1/16",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "sources/half_signal_supplement.md (superseded; not in manuscript)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0383256128904455081267281022248079253509370764262683388935360274573274054086117558492750974567852527",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "7E-100",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "9E-100",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.168890450521175004657245827542705686395856013314325356625094033411997965407678071962748773005989679'), Decimal('0.7895620560019079352034242139033142912421278742365692264540498434147826748730708781763003504576673649'))",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.50 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "0.00001800198348860517963038647750637402605335143378542570394586397449078032650403949279366987479817867056",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.7342939475154072629386168939227895447553572448288001147702453159995214828897094350828809736117527565",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.4992433853290046315591407678408539305599211969268597875009378924042110023760582267991064443207034095",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.3255326310550442793633072547844242165247779285675282012078785879615267118845095148490472636804343008",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.03788107535311699233641451162049915853139928483466603253264418415344889237361187634493050614386616212",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.00001471050497493330751687423681682714234928023655604241700113163952648512472082606591612829238179128797",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.50 [dyadic]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "3.345380128545642652700295109730209991131161759294997066768082032236759979881668044901970845717252185E-19",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0041064971565215618117361255443969526804362194941682802881989934849166300933641670050295206372096566",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "1E-99",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "1E-99",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.198407126947867852452760127187605908535197095143892028570086749798921463220213343470868434467990427'), Decimal('0.8265158645766526846105077039852445420394179039423325724071102968369589882454571236731022360125118737'))",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.53 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "0.000005750737202291317026695706294098816661058723882520935419330728728774091625623983537158143835536722025",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.7459464734477528411059182611886621406859825086649140679559711958229579785123863503379004770618701388",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.5115577046146774140869187029741402872652307096573900690544930682636628941055793023031280351881784052",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.3514388389256050484710110676028501607446871071121866559863424745987101230193488168931053170891085080",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.05477346051551957826084298785751422163053738915790334927874379522470454813863555884855389517037207817",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.00006133441776750331301972330905152758701965807725879040030407271506257001302206968047732707241290577684",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.53 [dyadic]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "9.643595509785876844846919258583860900411295179304883352123544855648585206459816018038617553243381490E-17",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0042266688391535344321236321464718363364923349029347386993874022847963308949576342963942442550214157",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "6E-100",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "1E-99",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.348909875242553567490295669981706279336142183989589086857188910838202248610687207594354730431860539'), Decimal('0.9053452920315182045729608684936316057517459679505055729706225559943567848269919796003370146022620368'))",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.56 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "2.863475681854624829864205014491531391146678314595691235223752350174248866506646467525207492835473631E-7",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.5238038676105801463096367225167405606268604070488702221718685063028328972631221001465104879840922816",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.3623786155245217340313831434740622561386259081677746634927285324153421151083532679065870009619222298",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.2619669264942889397943427563337133944238341270570475290603974123439250928370167569151733286679934369",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.05446446953969069650382589558974278495586316949589039349544873502989051808029919139644287749512766710",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.0001731780024697125825444330161436068973834116591000009838341129866558009076708591233199051544477595115",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.56 [dyadic]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "1.770148880967102154448522196661262766937194357346685946156105588817196056267721402981562410358322809E-14",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0",
+      "passed": true,
+      "detail": "0.0006008055439065711282524969577537801096720050547674976812825915905274483649547966992279900063710046",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P2),(P7)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: Mehler kernel composition B*B = A_r^eps",
+      "passed": true,
+      "detail": "1E-99",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: direct square root (P9) equals Mehler parametrisation",
+      "passed": true,
+      "detail": "1E-99",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: P > beta_B > 0",
+      "passed": true,
+      "detail": "(Decimal('1.393626603583620944003600808966438346369553491443836424886201366797145395115956573793256941622958699'), Decimal('0.9298353591067674704143279972937317778187848418318803626251552097841868261554899080613801830505934680'))",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P9)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s",
+      "passed": true,
+      "detail": "",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I \u00a72"
+    },
+    {
+      "label": "q=0.57 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)",
+      "passed": true,
+      "detail": "2.595276662657851594418935650425777217973350557246180268795274298729835400696624942839947589565505878E-9",
+      "group": "auxiliary_not_used_by_manuscript",
+      "manuscript_ref": "Part I (P21)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: cosine k=0 consistent with (P6)",
+      "passed": true,
+      "detail": "0.3113134402919600414953114566891793220728174026802233400605902738751369170707914507687702642589873446",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: cosine k=1 consistent with (P6)",
+      "passed": true,
+      "detail": "0.2160101117038574655443037601779478126998335193946047632160872844938745115536447020544323902325050408",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: cosine k=2 consistent with (P6)",
+      "passed": true,
+      "detail": "0.1587885588289363211585479835627141922948652623073597532259029656767862798088535324773056639766651047",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: cosine k=5 consistent with (P6)",
+      "passed": true,
+      "detail": "0.03631162479983301902345928658420520199503760492844824674241928930934098400407028814016841306718485981",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: cosine k=10 consistent with (P6)",
+      "passed": true,
+      "detail": "0.0001629801347993755216585643414663870545215948721138247862529185445569440977090161124953982779222046071",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "q=0.57 [dyadic]: cosine k=20 consistent with (P6)",
+      "passed": true,
+      "detail": "6.614394163133388001033184583626105250830538702530815567750990389277307612451847424750212524191015868E-14",
+      "group": "diagnostic_only",
+      "manuscript_ref": "Part I (P6) (non-adversarial sanity test)"
+    },
+    {
+      "label": "bilinear sharpness q=0.49: ratio(1000)<1 below 1/2",
+      "passed": true,
+      "detail": "0.00001095855345262036354797714121485928796827400117017704644829079274825557447317593188269596397170981295",
+      "group": "diagnostic_only",
+      "manuscript_ref": null
+    },
+    {
+      "label": "bilinear sharpness q=0.51: ratio(1000)>1 above 1/2",
+      "passed": true,
+      "detail": "5330.908950612141743642433048963061862371558868861969511088378635311290186284654033394858430516042218",
+      "group": "diagnostic_only",
+      "manuscript_ref": null
+    },
+    {
+      "label": "bilinear sharpness q=0.56: ratio(1000)>1 above 1/2",
+      "passed": true,
+      "detail": "1085742202786425071906355.279367421693278718287880495527105174853494251127676128846864916529202768867",
+      "group": "diagnostic_only",
+      "manuscript_ref": null
+    },
+    {
+      "label": "bilinear sharpness q=4/7: ratio(1000)>1 above 1/2",
+      "passed": true,
+      "detail": "26466034417093866586170840849.32157121035404263842151740492761463624950838887281285224138860829496398",
+      "group": "diagnostic_only",
+      "manuscript_ref": null
+    },
+    {
+      "label": "bilinear sharpness q=0.58: ratio(1000)>1 above 1/2",
+      "passed": true,
+      "detail": "45259525608191367149513688308506.71819998520300437811080139648253041256584713870049318322405810610468",
+      "group": "diagnostic_only",
+      "manuscript_ref": null
+    }
+  ],
+  "elapsed_seconds": 0.00972391699997388
+}

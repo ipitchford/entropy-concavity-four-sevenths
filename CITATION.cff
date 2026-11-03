@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "The critical signal fraction for local entropy concavity"
+abstract: "Unrefereed research candidate. Near the Gaussian, Gaussian noise restores mixing-weight entropy concavity for symmetric inputs exactly below signal fraction 4/7 (signal-to-noise ratio 4/3); the boundary q = 4/7 itself is open."
+authors:
+  - name: "Anonymous"
+version: "0.1.0-candidate"
+date-released: "2026-11-03"
+doi: "10.5281/zenodo.23910629"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23910629"
+    description: "This version"
+  - type: doi
+    value: "10.5281/zenodo.23910628"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/ipitchford/entropy-concavity-four-sevenths"
+url: "https://evidencepress.org/releases/entropy-concavity-four-sevenths/"
+license: CC0-1.0
+keywords:
+  - differential entropy
+  - entropy concavity
+  - Ball-Nayar-Tkocz conjecture
+  - Gaussian smoothing
+  - Ornstein-Uhlenbeck semigroup
+  - signal-to-noise ratio
+preferred-citation:
+  type: article
+  title: "The critical signal fraction for local entropy concavity"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  doi: "10.5281/zenodo.23910629"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 0.1.0-candidate; unrefereed"

@@ -1,0 +1,129 @@
+{
+ "title": "The critical signal fraction for local entropy concavity",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p><strong>Unrefereed research candidate.</strong> In one sentence: near the Gaussian, Gaussian noise restores entropy concavity for symmetric inputs exactly when the noise variance exceeds three quarters of the signal variance (signal fraction q &lt; 4/7, signal-to-noise ratio 4/3).</p><p>Take two independent copies of a random signal, add Gaussian noise to each, and mix the noisy copies with weights &radic;t and &radic;(1&minus;t). Ball, Nayar and Tkocz conjectured that the entropy of the mixture is concave in t for log-concave signals. Luo (2026) disproved this and showed that symmetric near-Gaussian counterexamples survive added noise whenever the signal is more than 4/7 of the total variance; Schubr (2026) proved local concavity below 1/2. This paper proves that for every q &lt; 4/7 there is an explicit neighbourhood of the Gaussian (a uniform bound on f/&phi; &minus; 1) in which every symmetric variance-one input has a strictly concave entropy curve (Theorem A), so with Luo's counterexamples the supremum of such signal fractions is exactly 4/7; whether q = 4/7 itself qualifies is open. For every q in (4/7, 1], one sequence of smooth strongly log-concave near-Gaussian inputs makes equal weighting a strict local entropy minimum, with exact curvature constant &gamma;(q) = 21&radic;5 q/(49q &minus; 4) and a Gaussian-shaped local profile (Theorem B); the sign on (4/7, 2 &minus; &radic;2], Luo's Problem 10.3, was also proposed in an earlier public, unrefereed GitHub argument (1 November 2026), which is cited. The paper also proves that the Ornstein&ndash;Uhlenbeck smoothing inequality behind Theorem A is sharp, with 4/7 its fixed point and Luo's family the extremal Hermite test function (Proposition S); that Luo's family is strictly concave near equal weighting at q = 4/7 (Proposition E); and that the proof's radius shrinks like (4/7 &minus; Q)<sup>9/4</sup> (Remark R). The effects are minute (entropy dips of order 10<sup>&minus;13</sup> nats); the results are structural.</p><p>The archive contains the manuscript (PDF, Markdown source and generated LaTeX), the figure and its script, the bibliography, five standard-library Python checkers with retained outputs in normal and optimized mode (exact identities, closed-form constants, the radius table, finite-n asymptotics and 16 deliberate mutants that must fail), a rating-free internal review summary, the research-gate record, the superseded first internal version, CI and SHA-256 sums. Assurance: written analytic proofs; finite-precision checks are not interval certificates; internal AI-assisted review only (not peer review, independent reproduction or formal verification). Creator: Anonymous. Text, data and figures CC0-1.0; code MIT.</p>",
+ "creators": [
+  {
+   "name": "Anonymous"
+  }
+ ],
+ "access_right": "open",
+ "license": "cc-zero",
+ "version": "0.1.0-candidate",
+ "publication_date": "2026-11-03",
+ "keywords": [
+  "differential entropy",
+  "entropy concavity",
+  "Ball-Nayar-Tkocz conjecture",
+  "Gaussian smoothing",
+  "Ornstein-Uhlenbeck semigroup",
+  "Hermite polynomials",
+  "signal-to-noise ratio",
+  "blind source separation",
+  "information theory"
+ ],
+ "notes": "Code (the .py files and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0.",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/ipitchford/entropy-concavity-four-sevenths/tree/v0.1.0-candidate",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://evidencepress.org/releases/entropy-concavity-four-sevenths/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  },
+  {
+   "identifier": "10.4064/sm8418-6-2016",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1090/S0894-0347-04-00459-X",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/BF01940328",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1214/17-AOP1242",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1112/mtk.12246",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1112/blms/bdu046",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.jmaa.2021.125234",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/TIT.2011.2169536",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/TIT.1985.1057105",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/18.850718",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/TIT.2005.844072",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/0165-1684(94)90029-9",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/TIT.2006.890716",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/TIT.2018.2808161",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "arXiv:2609.11418",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2610.22386",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "https://research.luminaryoddities.org/local-and-eventual-entropy-concavity-under-gaussian-smoothing/v/3",
+   "relation": "references",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://github.com/the-omega-institute/trureturing/issues/25275",
+   "relation": "references",
+   "scheme": "url"
+  }
+ ]
+}

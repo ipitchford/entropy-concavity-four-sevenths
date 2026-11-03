@@ -1,0 +1,901 @@
+{
+  "python": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]",
+  "work_directory": "system temporary directory (not recorded)",
+  "static_no_assert": {
+    "coefficient_checks.py": [],
+    "local_positive_checks.py": [],
+    "identity_checks.py": []
+  },
+  "originals": [
+    {
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 1.331,
+      "report_found": true,
+      "all_checks_passed": true,
+      "python_optimize_flag": 0,
+      "number_of_checks": 233,
+      "failed_labels": [],
+      "stderr_tail": "",
+      "script": "coefficient_checks.py",
+      "expected": "exit 0, all_checks_passed true",
+      "ok": true
+    },
+    {
+      "mode": "optimized_O",
+      "exit_code": 0,
+      "seconds": 1.366,
+      "report_found": true,
+      "all_checks_passed": true,
+      "python_optimize_flag": 1,
+      "number_of_checks": 233,
+      "failed_labels": [],
+      "stderr_tail": "",
+      "script": "coefficient_checks.py",
+      "expected": "exit 0, all_checks_passed true",
+      "ok": true
+    },
+    {
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.044,
+      "report_found": true,
+      "all_checks_passed": true,
+      "python_optimize_flag": 0,
+      "number_of_checks": 165,
+      "failed_labels": [],
+      "stderr_tail": "",
+      "script": "local_positive_checks.py",
+      "expected": "exit 0, all_checks_passed true",
+      "ok": true
+    },
+    {
+      "mode": "optimized_O",
+      "exit_code": 0,
+      "seconds": 0.046,
+      "report_found": true,
+      "all_checks_passed": true,
+      "python_optimize_flag": 1,
+      "number_of_checks": 165,
+      "failed_labels": [],
+      "stderr_tail": "",
+      "script": "local_positive_checks.py",
+      "expected": "exit 0, all_checks_passed true",
+      "ok": true
+    },
+    {
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 3.276,
+      "report_found": true,
+      "all_checks_passed": true,
+      "python_optimize_flag": 0,
+      "number_of_checks": 178,
+      "failed_labels": [],
+      "stderr_tail": "",
+      "script": "identity_checks.py",
+      "expected": "exit 0, all_checks_passed true",
+      "ok": true
+    },
+    {
+      "mode": "optimized_O",
+      "exit_code": 0,
+      "seconds": 3.263,
+      "report_found": true,
+      "all_checks_passed": true,
+      "python_optimize_flag": 1,
+      "number_of_checks": 178,
+      "failed_labels": [],
+      "stderr_tail": "",
+      "script": "identity_checks.py",
+      "expected": "exit 0, all_checks_passed true",
+      "ok": true
+    }
+  ],
+  "mutants": [
+    {
+      "id": "coef_target_minus7_gamma",
+      "script": "coefficient_checks.py",
+      "description": "wrong curvature target -7 gamma instead of -8 gamma",
+      "mutation_old": "target_curvature_per_n=-8 * gamma",
+      "mutation_new": "target_curvature_per_n=-7 * gamma",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 1.405,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+            "q=4/7: curvature error positive and decreasing in n",
+            "q=0.575 n=4: |C''/(nC) + 8 gamma| <= 2.0/n"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 1.395,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+            "q=4/7: curvature error positive and decreasing in n",
+            "q=0.575 n=4: |C''/(nC) + 8 gamma| <= 2.0/n"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "coef_b0_identity_minus7n",
+      "script": "coefficient_checks.py",
+      "description": "exact b=0 identity tested as C''=-7nC",
+      "mutation_old": "c2 == -8 * n * c0",
+      "mutation_new": "c2 == -7 * n * c0",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 1.308,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "b=0 n=2: C''/C = -8n exactly",
+            "b=0 n=4: C''/C = -8n exactly",
+            "b=0 n=6: C''/C = -8n exactly"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 1.306,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "b=0 n=2: C''/C = -8n exactly",
+            "b=0 n=4: C''/C = -8n exactly",
+            "b=0 n=6: C''/C = -8n exactly"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "coef_gamma_closed_form",
+      "script": "coefficient_checks.py",
+      "description": "gamma closed form 20 sqrt5 q/(49q-4)",
+      "mutation_old": "gamma_closed = 21 * math.sqrt(5)",
+      "mutation_new": "gamma_closed = 20 * math.sqrt(5)",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 1.355,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=0.575: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=0.6: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=0.75: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=1: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 1.358,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=0.575: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=0.6: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=0.75: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+            "q=1: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "coef_norm_prefactor",
+      "script": "coefficient_checks.py",
+      "description": "norm prefactor (M23) 4.4/(pi Delta sqrt det H0)",
+      "mutation_old": "prefactor = 4 / (math.pi * delta",
+      "mutation_new": "prefactor = 4.4 / (math.pi * delta",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 1.487,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=0.575 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=0.575 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=0.575 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 1.454,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=4/7 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=0.575 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=0.575 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+            "q=0.575 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "coef_matrix_second_jet",
+      "script": "coefficient_checks.py",
+      "description": "B''(0) entry -3e instead of -4e",
+      "mutation_old": "[z, -4 * e, z, -4 * c],",
+      "mutation_new": "[z, -3 * e, z, -4 * c],",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 1.446,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+            "q=4/7 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+            "q=0.575: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 1.458,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 233,
+          "failed_labels": [
+            "q=4/7: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+            "q=4/7 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+            "q=4/7: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+            "q=0.575: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "lp_928_to_929",
+      "script": "local_positive_checks.py",
+      "description": "half-signal constant 928 -> 929 (auxiliary group)",
+      "mutation_old": "sum_b_squared == 928",
+      "mutation_new": "sum_b_squared == 929",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 0.048,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "half-signal sum B_d^2 = 928"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 0.044,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "half-signal sum B_d^2 = 928"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "lp_133_to_134",
+      "script": "local_positive_checks.py",
+      "description": "half-signal constant 133 -> 134 (auxiliary group)",
+      "mutation_old": "sum_n_kernel == 133",
+      "mutation_new": "sum_n_kernel == 134",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 0.044,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "half-signal number-operator kernel sum = 133"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 0.05,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "half-signal number-operator kernel sum = 133"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "lp_table_s_digit",
+      "script": "local_positive_checks.py",
+      "description": "Section I.7 table: s(0.50) last digit 5 -> 6",
+      "mutation_old": "s=\"0.5202847075\"",
+      "mutation_new": "s=\"0.5202847076\"",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 0.044,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table s = 0.5202847076 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 0.053,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table s = 0.5202847076 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "lp_table_radius_digit",
+      "script": "local_positive_checks.py",
+      "description": "Section I.7 table: radius(0.50) 1.7134e-5 -> 1.7135e-5",
+      "mutation_old": "radius=\"1.7134e-5\"",
+      "mutation_new": "radius=\"1.7135e-5\"",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 0.039,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table radius = 1.7135e-5 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 0.044,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table radius = 1.7135e-5 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "lp_J_exponent",
+      "script": "local_positive_checks.py",
+      "description": "(P10) J with (pi/eps)^0.26",
+      "mutation_old": "J = c(s) / direct_c_b * direct_beta_b / beta(s) * (mp.pi / eps) ** mp.mpf(\"0.25\")",
+      "mutation_new": "J = c(s) / direct_c_b * direct_beta_b / beta(s) * (mp.pi / eps) ** mp.mpf(\"0.26\")",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 0.044,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table J = 1.4320544662 to displayed digits",
+            "q=0.50 [closed_form]: Section I.7 table radius = 1.7134e-5 to displayed digits",
+            "q=0.53 [closed_form]: Section I.7 table J = 1.5902847695 to displayed digits",
+            "q=0.53 [closed_form]: Section I.7 table radius = 4.8520e-6 to displayed digits",
+            "q=0.56 [closed_form]: Section I.7 table J = 2.1257516652 to displayed digits",
+            "q=0.56 [closed_form]: Section I.7 table radius = 2.5717e-7 to displayed digits",
+            "q=0.57 [closed_form]: Section I.7 table J = 3.5370963892 to displayed digits",
+            "q=0.57 [closed_form]: Section I.7 table radius = 2.3569e-9 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 0.051,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table J = 1.4320544662 to displayed digits",
+            "q=0.50 [closed_form]: Section I.7 table radius = 1.7134e-5 to displayed digits",
+            "q=0.53 [closed_form]: Section I.7 table J = 1.5902847695 to displayed digits",
+            "q=0.53 [closed_form]: Section I.7 table radius = 4.8520e-6 to displayed digits",
+            "q=0.56 [closed_form]: Section I.7 table J = 2.1257516652 to displayed digits",
+            "q=0.56 [closed_form]: Section I.7 table radius = 2.5717e-7 to displayed digits",
+            "q=0.57 [closed_form]: Section I.7 table J = 3.5370963892 to displayed digits",
+            "q=0.57 [closed_form]: Section I.7 table radius = 2.3569e-9 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "lp_A_constant",
+      "script": "local_positive_checks.py",
+      "description": "(P21) A_q with 30 instead of 60",
+      "mutation_old": "A = K * J / 8 + 60 + J / (8 * eta**2)",
+      "mutation_new": "A = K * J / 8 + 30 + J / (8 * eta**2)",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 0.044,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table radius = 1.7134e-5 to displayed digits",
+            "q=0.53 [closed_form]: Section I.7 table radius = 4.8520e-6 to displayed digits",
+            "q=0.56 [closed_form]: Section I.7 table radius = 2.5717e-7 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 0.047,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 165,
+          "failed_labels": [
+            "q=0.50 [closed_form]: Section I.7 table radius = 1.7134e-5 to displayed digits",
+            "q=0.53 [closed_form]: Section I.7 table radius = 4.8520e-6 to displayed digits",
+            "q=0.56 [closed_form]: Section I.7 table radius = 2.5717e-7 to displayed digits"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "id_wrong_Delta",
+      "script": "identity_checks.py",
+      "description": "(M20) Delta with (1+a+a/1000) prefactor",
+      "mutation_old": "delta = (1 + A) * (",
+      "mutation_new": "delta = (1 + A + A / 1000) * (",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 3.282,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 3.3,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "id_wrong_M21_entry",
+      "script": "identity_checks.py",
+      "description": "(M21) entry B_33 = d+3eu instead of d+2eu",
+      "mutation_old": "c * w, d + 2 * e * u, e * w]",
+      "mutation_new": "c * w, d + 3 * e * u, e * w]",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 3.285,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=0.6 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=0.6 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 3.243,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=0.6 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=0.6 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "id_wrong_lemma4_block",
+      "script": "identity_checks.py",
+      "description": "Lemma II.5 off-diagonal block beta v_t v_t^T",
+      "mutation_old": "m[i][2 + j] = bt * vt[i] * vs[j]",
+      "mutation_new": "m[i][2 + j] = bt * vt[i] * vt[j]",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 3.161,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "Lemma II.5 q=4/7 n=2 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=2 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=2 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=2 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 3.16,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "Lemma II.5 q=4/7 n=2 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=2 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=2 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=2 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+            "Lemma II.5 q=4/7 n=4 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "id_wrong_4nfact2",
+      "script": "identity_checks.py",
+      "description": "(M20) prefactor 3(n!)^2 instead of 4(n!)^2",
+      "mutation_old": "4 * FACT[n] ** 2 / p[\"Delta\"] * coefficient_cn(bm, n)",
+      "mutation_new": "3 * FACT[n] ** 2 / p[\"Delta\"] * coefficient_cn(bm, n)",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 3.162,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 3.153,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+            "(M20)-(M21) q=4/7 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    },
+    {
+      "id": "id_wrong_generating_function",
+      "script": "identity_checks.py",
+      "description": "double generating function w^2 coefficient perturbed",
+      "mutation_old": "d_ = -A / (2 * (1 + A))",
+      "mutation_new": "d_ = -A / (2 * (1 + A)) * D(\"1.000001\")",
+      "occurrences": 1,
+      "runs": [
+        {
+          "mode": "normal",
+          "exit_code": 1,
+          "seconds": 3.04,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 0,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "h_n n=2: generating-function coefficients equal direct integration, j<=14",
+            "(M11) n=2 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=2 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=2 r=1: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "h_n n=4: generating-function coefficients equal direct integration, j<=14",
+            "(M11) n=4 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=4 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=4 r=1: sum_j beta_j^2 r^j equals generating-function coefficient"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        },
+        {
+          "mode": "optimized_O",
+          "exit_code": 1,
+          "seconds": 3.028,
+          "report_found": true,
+          "all_checks_passed": false,
+          "python_optimize_flag": 1,
+          "number_of_checks": 178,
+          "failed_labels": [
+            "h_n n=2: generating-function coefficients equal direct integration, j<=14",
+            "(M11) n=2 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=2 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=2 r=1: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "h_n n=4: generating-function coefficients equal direct integration, j<=14",
+            "(M11) n=4 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=4 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+            "(M11) n=4 r=1: sum_j beta_j^2 r^j equals generating-function coefficient"
+          ],
+          "stderr_tail": "",
+          "expected": "exit 1, all_checks_passed false, >=1 failed label",
+          "ok": true
+        }
+      ],
+      "caught_in_both_modes": true
+    }
+  ],
+  "number_of_mutants": 16,
+  "mutants_caught_in_both_modes": 16,
+  "originals_pass_in_both_modes": true,
+  "problems": [],
+  "all_controls_passed": true,
+  "elapsed_seconds": 15.334
+}

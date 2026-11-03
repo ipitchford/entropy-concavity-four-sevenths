@@ -1,0 +1,2240 @@
+{
+  "purpose": "Finite exact and floating-point checks; not a proof of asymptotics.",
+  "python_version": "3.11.14",
+  "python_optimize_flag": 0,
+  "recurrence": "alpha_i*c_alpha = sum_j B_ij*c_(alpha-e_i-e_j), differentiated twice",
+  "tolerances": {
+    "C_CURV": 2.0,
+    "C_NORM": 0.25,
+    "decay_window": [
+      0.45,
+      0.55
+    ]
+  },
+  "numerical": [
+    {
+      "q_label": "4/7",
+      "q": 0.5714285714285714,
+      "scope": "coefficient_only: Lemma II.4 applies to the coefficient at q=4/7 (entries positive by (M14)), but Theorem B and (M16) do not; no entropy conclusion",
+      "parameters": {
+        "a": 1.0434983894999017,
+        "b": 0.021286236252208112,
+        "d": 0.024257879801508186,
+        "e": 0.0455441160537163,
+        "c": 0.15608200769744035,
+        "kappa": 0.3819660112501052,
+        "delta": 3.994153447565021,
+        "lambda_plus": 0.24236201953965625,
+        "hessian_determinant": 0.6517743326159952,
+        "gamma": 1.1180339887498942,
+        "gamma_closed_form": 1.1180339887498947,
+        "target_curvature_per_n": -8.944271909999154,
+        "target_norm_prefactor": 0.3948541857584778
+      },
+      "rows": [
+        {
+          "n": 2,
+          "coefficient": 0.0010536954194478813,
+          "coefficient_first_derivative": -1.3760414968470217e-19,
+          "coefficient_second_derivative": -0.017344682169165335,
+          "relative_first_derivative": -1.305919596355505e-16,
+          "curvature_per_n": -8.230405983094078,
+          "curvature_error": 0.7138659269050756,
+          "curvature_error_times_n": 1.427731853810151,
+          "norm_squared": 0.0042209511808926695,
+          "normalised_norm_prefactor": 0.39658971467581966,
+          "norm_prefactor_relative_error": 0.004395366644038612,
+          "norm_prefactor_relative_error_times_n": 0.008790733288077224
+        },
+        {
+          "n": 4,
+          "coefficient": 7.886848482152696e-08,
+          "coefficient_first_derivative": -1.871657334260791e-24,
+          "coefficient_second_derivative": -2.6843046456106503e-06,
+          "relative_first_derivative": -2.3731371770311057e-17,
+          "curvature_per_n": -8.508799971512753,
+          "curvature_error": 0.4354719384864012,
+          "curvature_error_times_n": 1.7418877539456048,
+          "norm_squared": 4.5494744108936735e-05,
+          "normalised_norm_prefactor": 0.40162751853831746,
+          "norm_prefactor_relative_error": 0.017154010326188462,
+          "norm_prefactor_relative_error_times_n": 0.06861604130475385
+        },
+        {
+          "n": 8,
+          "coefficient": 6.2447754566638196e-18,
+          "coefficient_first_derivative": 3.680248383487114e-33,
+          "coefficient_second_derivative": -4.358009785208529e-16,
+          "relative_first_derivative": 5.893323801674741e-16,
+          "curvature_per_n": -8.723311621553348,
+          "curvature_error": 0.22096028844580573,
+          "curvature_error_times_n": 1.7676823075664458,
+          "norm_squared": 1.016700693214336e-08,
+          "normalised_norm_prefactor": 0.39617548171525985,
+          "norm_prefactor_relative_error": 0.00334628833741224,
+          "norm_prefactor_relative_error_times_n": 0.02677030669929792
+        },
+        {
+          "n": 12,
+          "coefficient": 1.3331659903282276e-29,
+          "coefficient_first_derivative": 6.850510345098359e-45,
+          "coefficient_second_derivative": -1.4073897441770252e-27,
+          "relative_first_derivative": 5.138527681321778e-16,
+          "curvature_per_n": -8.797290024818563,
+          "curvature_error": 0.1469818851805904,
+          "curvature_error_times_n": 1.763782622167085,
+          "norm_squared": 3.0633272905788855e-12,
+          "normalised_norm_prefactor": 0.39516764429250395,
+          "norm_prefactor_relative_error": 0.0007938589619456149,
+          "norm_prefactor_relative_error_times_n": 0.009526307543347379
+        },
+        {
+          "n": 16,
+          "coefficient": 2.3731106337120292e-42,
+          "coefficient_first_derivative": -1.2880469873444193e-57,
+          "coefficient_second_derivative": -3.3542251867123093e-40,
+          "relative_first_derivative": -5.427673573438298e-16,
+          "curvature_per_n": -8.83393598222604,
+          "curvature_error": 0.1103359277731144,
+          "curvature_error_times_n": 1.7653748443698305,
+          "norm_squared": 1.0403810152832734e-15,
+          "normalised_norm_prefactor": 0.39493113859585016,
+          "norm_prefactor_relative_error": 0.0001948892531671298,
+          "norm_prefactor_relative_error_times_n": 0.0031182280506740767
+        },
+        {
+          "n": 24,
+          "coefficient": 3.692545205657758e-70,
+          "coefficient_first_derivative": -1.4752614931741472e-85,
+          "coefficient_second_derivative": -7.861200951418937e-68,
+          "relative_first_derivative": -3.9952428772266225e-16,
+          "curvature_per_n": -8.870576293570624,
+          "curvature_error": 0.07369561642853029,
+          "curvature_error_times_n": 1.7686947942847269,
+          "norm_squared": 1.4235489550466835e-22,
+          "normalised_norm_prefactor": 0.39481815307958007,
+          "norm_prefactor_relative_error": -9.125565891754395e-05,
+          "norm_prefactor_relative_error_times_n": -0.0021901358140210547
+        }
+      ],
+      "curvature_error_ratio_n24_over_n12": 0.5013925106347874
+    },
+    {
+      "q_label": "0.575",
+      "q": 0.575,
+      "scope": "q>4/7",
+      "parameters": {
+        "a": 1.0434983894999017,
+        "b": 0.021286236252208112,
+        "d": 0.02488283972867823,
+        "e": 0.04616907598088634,
+        "c": 0.1572410208499499,
+        "kappa": 0.38553395740946433,
+        "delta": 3.9918221744494335,
+        "lambda_plus": 0.2434301259903352,
+        "hessian_determinant": 0.6580237384472244,
+        "gamma": 1.1168778005505666,
+        "gamma_closed_form": 1.1168778005505673,
+        "target_curvature_per_n": -8.935022404404533,
+        "target_norm_prefactor": 0.39320420326016303
+      },
+      "rows": [
+        {
+          "n": 2,
+          "coefficient": 0.001088327229238802,
+          "coefficient_first_derivative": 3.28849355871946e-19,
+          "coefficient_second_derivative": -0.017914163930151564,
+          "relative_first_derivative": 3.0216036779852493e-16,
+          "curvature_per_n": -8.230136786470505,
+          "curvature_error": 0.7048856179340284,
+          "curvature_error_times_n": 1.4097712358680567,
+          "norm_squared": 0.004362227300423904,
+          "normalised_norm_prefactor": 0.3949005531297446,
+          "norm_prefactor_relative_error": 0.004314170233981951,
+          "norm_prefactor_relative_error_times_n": 0.008628340467963902
+        },
+        {
+          "n": 4,
+          "coefficient": 8.449215529627228e-08,
+          "coefficient_first_derivative": 3.247770425635242e-23,
+          "coefficient_second_derivative": -2.875013335016436e-06,
+          "relative_first_derivative": 3.843872149132561e-16,
+          "curvature_per_n": -8.50674635099313,
+          "curvature_error": 0.4282760534114036,
+          "curvature_error_times_n": 1.7131042136456145,
+          "norm_squared": 4.87671838311437e-05,
+          "normalised_norm_prefactor": 0.3996562217144969,
+          "norm_prefactor_relative_error": 0.016408823712560583,
+          "norm_prefactor_relative_error_times_n": 0.06563529485024233
+        },
+        {
+          "n": 8,
+          "coefficient": 7.209388417889708e-18,
+          "coefficient_first_derivative": -8.234925816063363e-34,
+          "coefficient_second_derivative": -5.028138705729788e-16,
+          "relative_first_derivative": -1.1422502629527962e-16,
+          "curvature_per_n": -8.718039614242336,
+          "curvature_error": 0.2169827901621968,
+          "curvature_error_times_n": 1.7358623212975743,
+          "norm_squared": 1.1744330825670621e-08,
+          "normalised_norm_prefactor": 0.3943810902785265,
+          "norm_prefactor_relative_error": 0.0029930682546259746,
+          "norm_prefactor_relative_error_times_n": 0.023944546037007797
+        },
+        {
+          "n": 12,
+          "coefficient": 1.65820946569322e-29,
+          "coefficient_first_derivative": 9.034377148236098e-45,
+          "coefficient_second_derivative": -1.7492156606958806e-27,
+          "relative_first_derivative": 5.448272570594239e-16,
+          "curvature_per_n": -8.790685057615319,
+          "curvature_error": 0.1443373467892144,
+          "curvature_error_times_n": 1.7320481614705727,
+          "norm_squared": 3.812432148516807e-12,
+          "normalised_norm_prefactor": 0.3934414382884887,
+          "norm_prefactor_relative_error": 0.0006033379764476265,
+          "norm_prefactor_relative_error_times_n": 0.0072400557173715185
+        },
+        {
+          "n": 16,
+          "coefficient": 3.1798196248383393e-42,
+          "coefficient_first_derivative": -1.0623152878186688e-57,
+          "coefficient_second_derivative": -4.4907581477979816e-40,
+          "relative_first_derivative": -3.340803608860916e-16,
+          "curvature_per_n": -8.826676269464281,
+          "curvature_error": 0.10834613494025191,
+          "curvature_error_times_n": 1.7335381590440306,
+          "norm_squared": 1.3948595426029028e-15,
+          "normalised_norm_prefactor": 0.3932295084505813,
+          "norm_prefactor_relative_error": 6.435635786306015e-05,
+          "norm_prefactor_relative_error_times_n": 0.0010297017258089625
+        },
+        {
+          "n": 24,
+          "coefficient": 5.741673631691659e-70,
+          "coefficient_first_derivative": -3.302330302620032e-85,
+          "coefficient_second_derivative": -1.2212763278445922e-67,
+          "relative_first_derivative": -5.75151169232702e-16,
+          "curvature_per_n": -8.862662165142735,
+          "curvature_error": 0.07236023926179769,
+          "curvature_error_times_n": 1.7366457422831445,
+          "norm_squared": 2.2148210783139407e-22,
+          "normalised_norm_prefactor": 0.39313648421939257,
+          "norm_prefactor_relative_error": -0.0001722235932601901,
+          "norm_prefactor_relative_error_times_n": -0.004133366238244562
+        }
+      ],
+      "curvature_error_ratio_n24_over_n12": 0.5013272092874913
+    },
+    {
+      "q_label": "0.6",
+      "q": 0.6,
+      "scope": "q>4/7",
+      "parameters": {
+        "a": 1.0434983894999017,
+        "b": 0.021286236252208112,
+        "d": 0.02940977164318954,
+        "e": 0.05069600789539765,
+        "c": 0.16546457495088313,
+        "kappa": 0.41103492944035347,
+        "delta": 3.9750564687141012,
+        "lambda_plus": 0.2508233703631791,
+        "hessian_determinant": 0.7009014999273191,
+        "gamma": 1.1092305715156432,
+        "gamma_closed_form": 1.1092305715156436,
+        "target_curvature_per_n": -8.873844572125146,
+        "target_norm_prefactor": 0.38259414665250396
+      },
+      "rows": [
+        {
+          "n": 2,
+          "coefficient": 0.0013608403933594439,
+          "coefficient_first_derivative": 9.403682968074731e-20,
+          "coefficient_second_derivative": -0.022393521258342965,
+          "relative_first_derivative": 6.910202705594513e-17,
+          "curvature_per_n": -8.227827953820915,
+          "curvature_error": 0.6460166183042304,
+          "curvature_error_times_n": 1.2920332366084608,
+          "norm_squared": 0.005477518738443139,
+          "normalised_norm_prefactor": 0.3837946793980029,
+          "norm_prefactor_relative_error": 0.0031378753595761033,
+          "norm_prefactor_relative_error_times_n": 0.006275750719152207
+        },
+        {
+          "n": 4,
+          "coefficient": 1.3599101132731055e-07,
+          "coefficient_first_derivative": 3.5701969112797057e-23,
+          "coefficient_second_derivative": -4.619130232718067e-06,
+          "relative_first_derivative": 2.625318303344889e-16,
+          "curvature_per_n": -8.491609459393779,
+          "curvature_error": 0.382235112731367,
+          "curvature_error_times_n": 1.528940450925468,
+          "norm_squared": 7.88223494594735e-05,
+          "normalised_norm_prefactor": 0.3869719904699258,
+          "norm_prefactor_relative_error": 0.011442526906712214,
+          "norm_prefactor_relative_error_times_n": 0.045770107626848855
+        },
+        {
+          "n": 8,
+          "coefficient": 1.9421266291732492e-17,
+          "coefficient_first_derivative": -1.2044517273808397e-32,
+          "coefficient_second_derivative": -1.3489050089214956e-15,
+          "relative_first_derivative": -6.201715734125777e-16,
+          "curvature_per_n": -8.681881169971108,
+          "curvature_error": 0.1919634021540375,
+          "curvature_error_times_n": 1.5357072172323,
+          "norm_squared": 3.177132145921166e-08,
+          "normalised_norm_prefactor": 0.38288256818381916,
+          "norm_prefactor_relative_error": 0.0007538576683379095,
+          "norm_prefactor_relative_error_times_n": 0.006030861346703276
+        },
+        {
+          "n": 12,
+          "coefficient": 7.464259514753978e-29,
+          "coefficient_first_derivative": -1.7691918529061625e-44,
+          "coefficient_second_derivative": -7.83401778498979e-27,
+          "relative_first_derivative": -2.370217500355057e-16,
+          "curvature_per_n": -8.746143058469654,
+          "curvature_error": 0.12770151365549154,
+          "curvature_error_times_n": 1.5324181638658985,
+          "norm_squared": 1.72336531270941e-11,
+          "normalised_norm_prefactor": 0.38235703595603915,
+          "norm_prefactor_relative_error": -0.0006197447047724403,
+          "norm_prefactor_relative_error_times_n": -0.007436936457269283
+        },
+        {
+          "n": 16,
+          "coefficient": 2.390245830979152e-41,
+          "coefficient_first_derivative": 3.256023206860579e-56,
+          "coefficient_second_derivative": -3.357058472589181e-39,
+          "relative_first_derivative": 1.3622126915400857e-15,
+          "curvature_per_n": -8.778015709408171,
+          "curvature_error": 0.09582886271697433,
+          "curvature_error_times_n": 1.5332618034715892,
+          "norm_squared": 1.0529274446114166e-14,
+          "normalised_norm_prefactor": 0.3822954116060732,
+          "norm_prefactor_relative_error": -0.0007808144715346632,
+          "norm_prefactor_relative_error_times_n": -0.012493031544554611
+        },
+        {
+          "n": 24,
+          "coefficient": 1.2030233703505624e-68,
+          "coefficient_first_derivative": -1.3571441092263217e-83,
+          "coefficient_second_derivative": -2.543638136619316e-66,
+          "relative_first_derivative": -1.1281111761202514e-15,
+          "curvature_per_n": -8.809880586796417,
+          "curvature_error": 0.06396398532872816,
+          "curvature_error_times_n": 1.5351356478894758,
+          "norm_squared": 4.6601735791214515e-21,
+          "normalised_norm_prefactor": 0.3823264292724499,
+          "norm_prefactor_relative_error": -0.0006997424879507941,
+          "norm_prefactor_relative_error_times_n": -0.016793819710819058
+        }
+      ],
+      "curvature_error_ratio_n24_over_n12": 0.5008866653005214
+    },
+    {
+      "q_label": "0.75",
+      "q": 0.75,
+      "scope": "q>4/7",
+      "parameters": {
+        "a": 1.0434983894999017,
+        "b": 0.021286236252208112,
+        "d": 0.06282789510572373,
+        "e": 0.08411413135793185,
+        "c": 0.2196292697637276,
+        "kappa": 0.5862005659911108,
+        "delta": 3.8574980414377875,
+        "lambda_plus": 0.29231651306379963,
+        "hessian_determinant": 0.9311775533686399,
+        "gamma": 1.0753609357441736,
+        "gamma_closed_form": 1.0753609357441736,
+        "target_curvature_per_n": -8.602887485953389,
+        "target_norm_prefactor": 0.3420488661733146
+      },
+      "rows": [
+        {
+          "n": 2,
+          "coefficient": 0.0047982985900448995,
+          "coefficient_first_derivative": -2.588931999706813e-19,
+          "coefficient_second_derivative": -0.07872734334929224,
+          "relative_first_derivative": -5.39552083123403e-17,
+          "curvature_per_n": -8.203672809423429,
+          "curvature_error": 0.3992146765299598,
+          "curvature_error_times_n": 0.7984293530599196,
+          "norm_squared": 0.019902220718199828,
+          "normalised_norm_prefactor": 0.33709056754284955,
+          "norm_prefactor_relative_error": -0.014495877989411876,
+          "norm_prefactor_relative_error_times_n": -0.028991755978823752
+        },
+        {
+          "n": 4,
+          "coefficient": 1.976474997102639e-06,
+          "coefficient_first_derivative": 4.1989881956913626e-22,
+          "coefficient_second_derivative": -6.634384965604597e-05,
+          "relative_first_derivative": 2.12448333616502e-16,
+          "curvature_per_n": -8.391688454609971,
+          "curvature_error": 0.21119903134341733,
+          "curvature_error_times_n": 0.8447961253736693,
+          "norm_squared": 0.0011805056916184885,
+          "normalised_norm_prefactor": 0.33865555925459534,
+          "norm_prefactor_relative_error": -0.009920532573845398,
+          "norm_prefactor_relative_error_times_n": -0.03968213029538159
+        },
+        {
+          "n": 8,
+          "coefficient": 4.893359182402714e-15,
+          "coefficient_first_derivative": 5.130739066212202e-31,
+          "coefficient_second_derivative": -3.327014501420343e-13,
+          "relative_first_derivative": 1.0485106191802031e-16,
+          "curvature_per_n": -8.498800050752479,
+          "curvature_error": 0.1040874352009098,
+          "curvature_error_times_n": 0.8326994816072784,
+          "norm_squared": 8.249021185689618e-06,
+          "normalised_norm_prefactor": 0.3394319125431967,
+          "norm_prefactor_relative_error": -0.00765081802315315,
+          "norm_prefactor_relative_error_times_n": -0.0612065441852252
+        },
+        {
+          "n": 12,
+          "coefficient": 3.2298965630020016e-25,
+          "coefficient_first_derivative": 8.272609983373129e-41,
+          "coefficient_second_derivative": -3.3075570378861116e-23,
+          "relative_first_derivative": 2.561261582842832e-16,
+          "curvature_per_n": -8.533702172214273,
+          "curvature_error": 0.06918531373911563,
+          "curvature_error_times_n": 0.8302237648693875,
+          "norm_squared": 7.684521315575262e-08,
+          "normalised_norm_prefactor": 0.3401640890507583,
+          "norm_prefactor_relative_error": -0.005510256892947263,
+          "norm_prefactor_relative_error_times_n": -0.06612308271536715
+        },
+        {
+          "n": 16,
+          "coefficient": 1.7725517266684847e-36,
+          "coefficient_first_derivative": -1.536645804883611e-52,
+          "coefficient_second_derivative": -2.4251503974270014e-34,
+          "relative_first_derivative": -8.66911685433147e-17,
+          "curvature_per_n": -8.551056511285418,
+          "curvature_error": 0.05183097466797015,
+          "curvature_error_times_n": 0.8292955946875225,
+          "norm_squared": 8.046228881926383e-10,
+          "normalised_norm_prefactor": 0.3405907864228333,
+          "norm_prefactor_relative_error": -0.004262782001863141,
+          "norm_prefactor_relative_error_times_n": -0.06820451202981026
+        },
+        {
+          "n": 24,
+          "coefficient": 2.6161332362792492e-61,
+          "coefficient_first_derivative": -6.027720119930304e-76,
+          "coefficient_second_derivative": -5.379838292187237e-59,
+          "relative_first_derivative": -2.3040570091541383e-15,
+          "curvature_per_n": -8.568368221182133,
+          "curvature_error": 0.03451926477125511,
+          "curvature_error_times_n": 0.8284623545101226,
+          "norm_squared": 1.0443004753630681e-13,
+          "normalised_norm_prefactor": 0.34104957527624796,
+          "norm_prefactor_relative_error": -0.002921485775544963,
+          "norm_prefactor_relative_error_times_n": -0.07011565861307911
+        }
+      ],
+      "curvature_error_ratio_n24_over_n12": 0.4989391954110456
+    },
+    {
+      "q_label": "1",
+      "q": 1.0,
+      "scope": "q>4/7",
+      "parameters": {
+        "a": 1.0434983894999017,
+        "b": 0.021286236252208112,
+        "d": 0.15132660059903227,
+        "e": 0.17261283685124038,
+        "c": 0.3380302812748637,
+        "kappa": 1.0,
+        "delta": 3.5903963021153853,
+        "lambda_plus": 0.35212112509945465,
+        "hessian_determinant": 1.2411812514553058,
+        "gamma": 1.0434983894999017,
+        "gamma_closed_form": 1.043498389499902,
+        "target_curvature_per_n": -8.347987115999214,
+        "target_norm_prefactor": 0.3183098861837907
+      },
+      "rows": [
+        {
+          "n": 2,
+          "coefficient": 0.03409660451929968,
+          "coefficient_first_derivative": -2.267674427963346e-18,
+          "coefficient_second_derivative": -0.5557764349100509,
+          "relative_first_derivative": -6.650733877855126e-17,
+          "curvature_per_n": -8.150026120569645,
+          "curvature_error": 0.19796099542956824,
+          "curvature_error_times_n": 0.3959219908591365,
+          "norm_squared": 0.1519458094326164,
+          "normalised_norm_prefactor": 0.3038916188652328,
+          "norm_prefactor_relative_error": -0.04529632268547523,
+          "norm_prefactor_relative_error_times_n": -0.09059264537095046
+        },
+        {
+          "n": 4,
+          "coefficient": 0.00012067722222307685,
+          "coefficient_first_derivative": -1.7798281414068152e-20,
+          "coefficient_second_derivative": -0.003982780063181188,
+          "relative_first_derivative": -1.4748666804052955e-16,
+          "curvature_per_n": -8.250894389619885,
+          "curvature_error": 0.0970927263793282,
+          "curvature_error_times_n": 0.3883709055173128,
+          "norm_squared": 0.07744000845760497,
+          "normalised_norm_prefactor": 0.3097600338304199,
+          "norm_prefactor_relative_error": -0.026860153342627147,
+          "norm_prefactor_relative_error_times_n": -0.10744061337050859
+        },
+        {
+          "n": 8,
+          "coefficient": 2.165289477103557e-11,
+          "coefficient_first_derivative": -3.7905700757455816e-26,
+          "coefficient_second_derivative": -1.4378070742007267e-09,
+          "relative_first_derivative": -1.7506066121081019e-15,
+          "curvature_per_n": -8.300316709408516,
+          "curvature_error": 0.04767040659069721,
+          "curvature_error_times_n": 0.3813632527255777,
+          "norm_squared": 0.03921702233870974,
+          "normalised_norm_prefactor": 0.3137361787096779,
+          "norm_prefactor_relative_error": -0.014368725800341431,
+          "norm_prefactor_relative_error_times_n": -0.11494980640273145
+        },
+        {
+          "n": 12,
+          "coefficient": 1.0276060115834556e-19,
+          "coefficient_first_derivative": -1.0958048376885497e-34,
+          "coefficient_second_derivative": -1.0255155853109895e-17,
+          "relative_first_derivative": -1.0663667060491456e-15,
+          "curvature_per_n": -8.316381098001065,
+          "curvature_error": 0.03160601799814877,
+          "curvature_error_times_n": 0.37927221597778527,
+          "norm_squared": 0.02626746533600542,
+          "normalised_norm_prefactor": 0.31520958403206506,
+          "norm_prefactor_relative_error": -0.009739886463769887,
+          "norm_prefactor_relative_error_times_n": -0.11687863756523864
+        },
+        {
+          "n": 16,
+          "coefficient": 4.049156796151613e-29,
+          "coefficient_first_derivative": -1.0733225920729918e-44,
+          "coefficient_second_derivative": -5.3930539747522014e-27,
+          "relative_first_derivative": -2.650731117878902e-16,
+          "curvature_per_n": -8.324347275026883,
+          "curvature_error": 0.023639840972331072,
+          "curvature_error_times_n": 0.37823745555729715,
+          "norm_squared": 0.019747921186511287,
+          "normalised_norm_prefactor": 0.3159667389841806,
+          "norm_prefactor_relative_error": -0.007361214028574592,
+          "norm_prefactor_relative_error_times_n": -0.11777942445719347
+        },
+        {
+          "n": 24,
+          "coefficient": 3.077213792244252e-50,
+          "coefficient_first_derivative": -1.2128106792670593e-65,
+          "coefficient_second_derivative": -6.153642446868663e-48,
+          "relative_first_derivative": -3.9412623273813575e-16,
+          "curvature_per_n": -8.33227022658476,
+          "curvature_error": 0.01571688941445437,
+          "curvature_error_times_n": 0.3772053459469049,
+          "norm_squared": 0.013197346337233335,
+          "normalised_norm_prefactor": 0.31673631209360004,
+          "norm_prefactor_relative_error": -0.004943528801622188,
+          "norm_prefactor_relative_error_times_n": -0.11864469123893251
+        }
+      ],
+      "curvature_error_ratio_n24_over_n12": 0.49727521560529836
+    }
+  ],
+  "exact_surrogate": [
+    {
+      "n": 2,
+      "coefficient": "2453/1024000",
+      "first_derivative": "0/1",
+      "second_derivative": "-13299/320000",
+      "curvature_per_n": "-9672/1115",
+      "curvature_per_n_decimal": -8.674439461883408,
+      "independent_enumeration_configurations": 17,
+      "recurrence_equals_enumeration": true
+    },
+    {
+      "n": 4,
+      "coefficient": "22322621/41943040000000",
+      "first_derivative": "0/1",
+      "second_derivative": "-76889839/3932160000000",
+      "curvature_per_n": "-615118712/66967863",
+      "curvature_per_n_decimal": -9.185282080749687,
+      "independent_enumeration_configurations": 138,
+      "recurrence_equals_enumeration": true
+    },
+    {
+      "n": 6,
+      "coefficient": "54041817589979/2174327193600000000000000",
+      "first_derivative": "0/1",
+      "second_derivative": "-63335166535669/45298483200000000000000",
+      "curvature_per_n": "-506681332285352/54041817589979",
+      "curvature_per_n_decimal": -9.375727073608015,
+      "independent_enumeration_configurations": 670,
+      "recurrence_equals_enumeration": true
+    }
+  ],
+  "exact_b_zero": [
+    {
+      "n": 2,
+      "exact_curvature": "-16/1",
+      "passed": true
+    },
+    {
+      "n": 4,
+      "exact_curvature": "-32/1",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "exact_curvature": "-48/1",
+      "passed": true
+    }
+  ],
+  "number_of_checks": 233,
+  "number_failed": 0,
+  "failed_labels": [],
+  "manuscript_claim_checks": 233,
+  "manuscript_claim_checks_passed": true,
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "label": "b=(a-1)/(a+1)=(47-21sqrt5)/2 in (0,1/40) (M4)",
+      "passed": true,
+      "detail": "0.021286236252208112",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4)"
+    },
+    {
+      "label": "d(4/7)=(203sqrt5-453)/38>0 (M14)",
+      "passed": true,
+      "detail": "0.024257879801508186",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M14)"
+    },
+    {
+      "label": "q=4/7: d,e,c>0 (M14)",
+      "passed": true,
+      "detail": "(0.024257879801508186, 0.0455441160537163, 0.15608200769744035)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: d+e+2c=kappa (M15)",
+      "passed": true,
+      "detail": "(0.3819660112501052, 0.3819660112501052)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: e-d=b (M15)",
+      "passed": true,
+      "detail": "(0.021286236252208112, 0.021286236252208112)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: closed form of -alpha (M14)",
+      "passed": true,
+      "detail": "0.0910882321074326",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+      "passed": true,
+      "detail": "(1.1180339887498942, 1.1180339887498947)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: det(I+B(0)/kappa) equals (M24)",
+      "passed": true,
+      "detail": "(0.6517743326159952, 0.6517743326159952)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: B(0) eigenpairs kappa,-lambda_+,-b,-b (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: kappa^2 - tau(q/2) factorisation (M16)",
+      "passed": true,
+      "detail": "(-5.551115123125783e-17, 0.0)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: equality kappa^2 = tau(2/7) (M16)",
+      "passed": true,
+      "detail": "-5.551115123125783e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7: sqrt(b) < kappa (M16 second margin)",
+      "passed": true,
+      "detail": "(0.1458980337503152, 0.3819660112501052)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=4/7 n=2: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "0.0010536954194478813",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=2: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-1.305919596355505e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=2: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.230405983094078",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=2: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.713866, bound=1",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=2: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.00439537, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=4/7 n=4: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "7.886848482152696e-08",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=4: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-2.3731371770311057e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=4: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.508799971512753",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.435472, bound=0.5",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.017154, bound=0.0625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=4/7 n=8: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "6.2447754566638196e-18",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=8: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "5.893323801674741e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=8: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.723311621553348",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.22096, bound=0.25",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.00334629, bound=0.03125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=4/7 n=12: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.3331659903282276e-29",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=12: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "5.138527681321778e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=12: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.797290024818563",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.146982, bound=0.166667",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.000793859, bound=0.0208333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=4/7 n=16: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "2.3731106337120292e-42",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=16: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-5.427673573438298e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=16: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.83393598222604",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.110336, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.000194889, bound=0.015625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=4/7 n=24: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "3.692545205657758e-70",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=24: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-3.9952428772266225e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=24: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.870576293570624",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0736956, bound=0.0833333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=4/7 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-9.12557e-05, bound=0.0104167",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=4/7: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+      "passed": true,
+      "detail": "0.5013925106347874",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22): O(1) remainder"
+    },
+    {
+      "label": "q=4/7: curvature error positive and decreasing in n",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575: d,e,c>0 (M14)",
+      "passed": true,
+      "detail": "(0.02488283972867823, 0.04616907598088634, 0.1572410208499499)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: d+e+2c=kappa (M15)",
+      "passed": true,
+      "detail": "(0.3855339574094644, 0.38553395740946433)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: e-d=b (M15)",
+      "passed": true,
+      "detail": "(0.021286236252208112, 0.021286236252208112)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: closed form of -alpha (M14)",
+      "passed": true,
+      "detail": "0.09233815196177268",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+      "passed": true,
+      "detail": "(1.1168778005505666, 1.1168778005505673)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: det(I+B(0)/kappa) equals (M24)",
+      "passed": true,
+      "detail": "(0.6580237384472251, 0.6580237384472244)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: B(0) eigenpairs kappa,-lambda_+,-b,-b (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: kappa^2 - tau(q/2) factorisation (M16)",
+      "passed": true,
+      "detail": "(0.0015136988377454919, 0.0015136988377455014)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: strict tau(q/2) < kappa^2 (M16)",
+      "passed": true,
+      "detail": "0.0015136988377454919",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575: sqrt(b) < kappa (M16 second margin)",
+      "passed": true,
+      "detail": "(0.1458980337503152, 0.38553395740946433)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.575 n=2: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "0.001088327229238802",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=2: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "3.0216036779852493e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=2: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.230136786470505",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=2: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.704886, bound=1",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=2: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.00431417, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.575 n=4: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "8.449215529627228e-08",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=4: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "3.843872149132561e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=4: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.50674635099313",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.428276, bound=0.5",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.0164088, bound=0.0625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.575 n=8: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "7.209388417889708e-18",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=8: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-1.1422502629527962e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=8: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.718039614242336",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.216983, bound=0.25",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.00299307, bound=0.03125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.575 n=12: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.65820946569322e-29",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=12: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "5.448272570594239e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=12: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.790685057615319",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.144337, bound=0.166667",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.000603338, bound=0.0208333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.575 n=16: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "3.1798196248383393e-42",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=16: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-3.340803608860916e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=16: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.826676269464281",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.108346, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=6.43564e-05, bound=0.015625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.575 n=24: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "5.741673631691659e-70",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=24: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-5.75151169232702e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=24: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.862662165142735",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0723602, bound=0.0833333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.575 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.000172224, bound=0.0104167",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.575: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+      "passed": true,
+      "detail": "0.5013272092874913",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22): O(1) remainder"
+    },
+    {
+      "label": "q=0.575: curvature error positive and decreasing in n",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6: d,e,c>0 (M14)",
+      "passed": true,
+      "detail": "(0.02940977164318954, 0.05069600789539765, 0.16546457495088313)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: d+e+2c=kappa (M15)",
+      "passed": true,
+      "detail": "(0.41103492944035347, 0.41103492944035347)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: e-d=b (M15)",
+      "passed": true,
+      "detail": "(0.021286236252208112, 0.021286236252208112)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: closed form of -alpha (M14)",
+      "passed": true,
+      "detail": "0.1013920157907953",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+      "passed": true,
+      "detail": "(1.1092305715156432, 1.1092305715156436)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: det(I+B(0)/kappa) equals (M24)",
+      "passed": true,
+      "detail": "(0.7009014999273192, 0.7009014999273191)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: B(0) eigenpairs kappa,-lambda_+,-b,-b (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: kappa^2 - tau(q/2) factorisation (M16)",
+      "passed": true,
+      "detail": "(0.013180229584677405, 0.013180229584677442)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: strict tau(q/2) < kappa^2 (M16)",
+      "passed": true,
+      "detail": "0.013180229584677405",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6: sqrt(b) < kappa (M16 second margin)",
+      "passed": true,
+      "detail": "(0.1458980337503152, 0.41103492944035347)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.6 n=2: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "0.0013608403933594439",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=2: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "6.910202705594513e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=2: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.227827953820915",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=2: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.646017, bound=1",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=2: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.00313788, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.6 n=4: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.3599101132731055e-07",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=4: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "2.625318303344889e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=4: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.491609459393779",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.382235, bound=0.5",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.0114425, bound=0.0625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.6 n=8: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.9421266291732492e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=8: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-6.201715734125777e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=8: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.681881169971108",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.191963, bound=0.25",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=0.000753858, bound=0.03125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.6 n=12: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "7.464259514753978e-29",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=12: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-2.370217500355057e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=12: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.746143058469654",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.127702, bound=0.166667",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.000619745, bound=0.0208333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.6 n=16: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "2.390245830979152e-41",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=16: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "1.3622126915400857e-15",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=16: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.778015709408171",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0958289, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.000780814, bound=0.015625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.6 n=24: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.2030233703505624e-68",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=24: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-1.1281111761202514e-15",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=24: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.809880586796417",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.063964, bound=0.0833333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.6 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.000699742, bound=0.0104167",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.6: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+      "passed": true,
+      "detail": "0.5008866653005214",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22): O(1) remainder"
+    },
+    {
+      "label": "q=0.6: curvature error positive and decreasing in n",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75: d,e,c>0 (M14)",
+      "passed": true,
+      "detail": "(0.06282789510572373, 0.08411413135793185, 0.2196292697637276)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: d+e+2c=kappa (M15)",
+      "passed": true,
+      "detail": "(0.5862005659911107, 0.5862005659911108)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: e-d=b (M15)",
+      "passed": true,
+      "detail": "(0.021286236252208116, 0.021286236252208112)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: closed form of -alpha (M14)",
+      "passed": true,
+      "detail": "0.1682282627158637",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+      "passed": true,
+      "detail": "(1.0753609357441736, 1.0753609357441736)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: det(I+B(0)/kappa) equals (M24)",
+      "passed": true,
+      "detail": "(0.9311775533686405, 0.9311775533686399)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: B(0) eigenpairs kappa,-lambda_+,-b,-b (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: kappa^2 - tau(q/2) factorisation (M16)",
+      "passed": true,
+      "detail": "(0.1331140051995051, 0.13311400519950506)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: strict tau(q/2) < kappa^2 (M16)",
+      "passed": true,
+      "detail": "0.1331140051995051",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75: sqrt(b) < kappa (M16 second margin)",
+      "passed": true,
+      "detail": "(0.1458980337503152, 0.5862005659911108)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=0.75 n=2: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "0.0047982985900448995",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=2: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-5.39552083123403e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=2: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.203672809423429",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=2: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.399215, bound=1",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=2: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.0144959, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.75 n=4: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.976474997102639e-06",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=4: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "2.12448333616502e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=4: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.391688454609971",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.211199, bound=0.5",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00992053, bound=0.0625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.75 n=8: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "4.893359182402714e-15",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=8: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "1.0485106191802031e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=8: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.498800050752479",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.104087, bound=0.25",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00765082, bound=0.03125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.75 n=12: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "3.2298965630020016e-25",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=12: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "2.561261582842832e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=12: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.533702172214273",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0691853, bound=0.166667",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00551026, bound=0.0208333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.75 n=16: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.7725517266684847e-36",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=16: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-8.66911685433147e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=16: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.551056511285418",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.051831, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00426278, bound=0.015625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.75 n=24: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "2.6161332362792492e-61",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=24: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-2.3040570091541383e-15",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=24: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.568368221182133",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0345193, bound=0.0833333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=0.75 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00292149, bound=0.0104167",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=0.75: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+      "passed": true,
+      "detail": "0.4989391954110456",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22): O(1) remainder"
+    },
+    {
+      "label": "q=0.75: curvature error positive and decreasing in n",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1: d,e,c>0 (M14)",
+      "passed": true,
+      "detail": "(0.15132660059903227, 0.17261283685124038, 0.3380302812748637)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: d+e+2c=kappa (M15)",
+      "passed": true,
+      "detail": "(1.0, 1.0)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: e-d=b (M15)",
+      "passed": true,
+      "detail": "(0.0212862362522081, 0.021286236252208112)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: closed form of -alpha (M14)",
+      "passed": true,
+      "detail": "0.34522567370248075",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: gamma=(kappa+b)/(kappa-b)=21sqrt5 q/(49q-4) (M22),(M3)",
+      "passed": true,
+      "detail": "(1.0434983894999017, 1.043498389499902)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: det(I+B(0)/kappa) equals (M24)",
+      "passed": true,
+      "detail": "(1.2411812514553062, 1.2411812514553058)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: B(0) eigenpairs kappa,-lambda_+,-b,-b (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: B'(0)1=Uv and 1^T B''(0) 1=-8U (Lemma II.4)",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: kappa^2 - tau(q/2) factorisation (M16)",
+      "passed": true,
+      "detail": "(0.6857229779387963, 0.6857229779387963)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: strict tau(q/2) < kappa^2 (M16)",
+      "passed": true,
+      "detail": "0.6857229779387963",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1: sqrt(b) < kappa (M16 second margin)",
+      "passed": true,
+      "detail": "(0.1458980337503152, 1.0)",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4),(M13)-(M16),(M22),(M24),(M3)"
+    },
+    {
+      "label": "q=1 n=2: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "0.03409660451929968",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=2: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-6.650733877855126e-17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=2: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.150026120569645",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=2: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.197961, bound=1",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=2: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.0452963, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=1 n=4: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "0.00012067722222307685",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=4: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-1.4748666804052955e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=4: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.250894389619885",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=4: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0970927, bound=0.5",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=4: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.0268602, bound=0.0625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=1 n=8: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "2.165289477103557e-11",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=8: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-1.7506066121081019e-15",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=8: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.300316709408516",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=8: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0476704, bound=0.25",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=8: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.0143687, bound=0.03125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=1 n=12: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "1.0276060115834556e-19",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=12: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-1.0663667060491456e-15",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=12: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.316381098001065",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=12: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.031606, bound=0.166667",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=12: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00973989, bound=0.0208333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=1 n=16: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "4.049156796151613e-29",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=16: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-2.650731117878902e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=16: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.324347275026883",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=16: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0236398, bound=0.125",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=16: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00736121, bound=0.015625",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=1 n=24: C_n(0)>0 finite",
+      "passed": true,
+      "detail": "3.077213792244252e-50",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=24: C_n'(0)=0 (evenness)",
+      "passed": true,
+      "detail": "-3.9412623273813575e-16",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=24: C_n''(0)<0",
+      "passed": true,
+      "detail": "-8.33227022658476",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=24: |C''/(nC) + 8 gamma| <= 2.0/n",
+      "passed": true,
+      "detail": "error=0.0157169, bound=0.0833333",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "q=1 n=24: |n||M_1/2||^2 kappa^(-2n) / (M23) prefactor - 1| <= 0.25/n",
+      "passed": true,
+      "detail": "error=-0.00494353, bound=0.0104167",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M23),(M24)"
+    },
+    {
+      "label": "q=1: curvature error decays like 1/n (err24/err12 in (0.45, 0.55))",
+      "passed": true,
+      "detail": "0.49727521560529836",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22): O(1) remainder"
+    },
+    {
+      "label": "q=1: curvature error positive and decreasing in n",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "thirty numerical coefficient cases evaluated",
+      "passed": true,
+      "detail": "30",
+      "group": "manuscript",
+      "manuscript_ref": "Section II.7"
+    },
+    {
+      "label": "Section II.7 quoted value C''/(nC)=-8.80988058680 at q=0.6, n=24",
+      "passed": true,
+      "detail": "-8.809880586796417",
+      "group": "manuscript",
+      "manuscript_ref": "Section II.7"
+    },
+    {
+      "label": "Section II.7 quoted limit -8.87384457213 at q=0.6",
+      "passed": true,
+      "detail": "-8.873844572125146",
+      "group": "manuscript",
+      "manuscript_ref": "Section II.7"
+    },
+    {
+      "label": "exact surrogate target -8(kappa+b)/(kappa-b) = -88/9",
+      "passed": true,
+      "detail": "-88/9",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "surrogate n=2: recurrence equals multigraph enumeration",
+      "passed": true,
+      "detail": "17",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20)-(M21) coefficient C_n"
+    },
+    {
+      "label": "surrogate n=2: C'=0 and C''<0 exactly",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "surrogate n=2: exact curvature error positive and decreasing toward -88/9",
+      "passed": true,
+      "detail": "1.1033383158943697",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "surrogate n=4: recurrence equals multigraph enumeration",
+      "passed": true,
+      "detail": "138",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20)-(M21) coefficient C_n"
+    },
+    {
+      "label": "surrogate n=4: C'=0 and C''<0 exactly",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "surrogate n=4: exact curvature error positive and decreasing toward -88/9",
+      "passed": true,
+      "detail": "0.5924956970280905",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "surrogate n=6: recurrence equals multigraph enumeration",
+      "passed": true,
+      "detail": "670",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20)-(M21) coefficient C_n"
+    },
+    {
+      "label": "surrogate n=6: C'=0 and C''<0 exactly",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "surrogate n=6: exact curvature error positive and decreasing toward -88/9",
+      "passed": true,
+      "detail": "0.402050704169762",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M22)"
+    },
+    {
+      "label": "b=0 n=2: C''/C = -8n exactly",
+      "passed": true,
+      "detail": "-16/1",
+      "group": "manuscript",
+      "manuscript_ref": "Section II.7 (b=0 identity)"
+    },
+    {
+      "label": "b=0 n=4: C''/C = -8n exactly",
+      "passed": true,
+      "detail": "-32/1",
+      "group": "manuscript",
+      "manuscript_ref": "Section II.7 (b=0 identity)"
+    },
+    {
+      "label": "b=0 n=6: C''/C = -8n exactly",
+      "passed": true,
+      "detail": "-48/1",
+      "group": "manuscript",
+      "manuscript_ref": "Section II.7 (b=0 identity)"
+    }
+  ],
+  "elapsed_seconds": 1.193027833999622
+}

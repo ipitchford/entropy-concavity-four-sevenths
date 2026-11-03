@@ -1,0 +1,2251 @@
+{
+ "all_passed": true,
+ "n_checks": 315,
+ "n_failed": 0,
+ "failed": [],
+ "negative_controls": [
+  {
+   "label": "wrong closed form 2Pi^-1/2 kappa^(2n)(1+1/(n+1)) rejected at n=6",
+   "caught": true,
+   "data": {}
+  },
+  {
+   "label": "wrong Gamma_1 (7sqrt5/6) rejected",
+   "caught": true,
+   "data": {}
+  },
+  {
+   "label": "wrong exponent p=2 rejected",
+   "caught": true,
+   "data": {
+    "pe": "2.250000000534e+0"
+   }
+  },
+  {
+   "label": "wrong exponent p=5/2 rejected",
+   "caught": true,
+   "data": {
+    "pe": "2.250000000534e+0"
+   }
+  },
+  {
+   "label": "wrong envelope s*=b(r)+0.01 rejected (ratio>1 at b+0.005)",
+   "caught": true,
+   "data": {
+    "m": "1.028173644970e+0"
+   }
+  },
+  {
+   "label": "wrong extremal a=1 at r=2/7 rejected (tau!=nu)",
+   "caught": true,
+   "data": {}
+  }
+ ],
+ "summary": {
+  "envelope": [
+   {
+    "r": "0.05",
+    "b": "2.740370349204e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "1.001252348644e+0",
+    "a_r": "1.001252348644e+0",
+    "max_below": "9.996633806096e-1",
+    "max_above": "1.008514334475e+0",
+    "argmax_above": "1.001252348644e+0"
+   },
+   {
+    "r": "0.1",
+    "b": "3.690415759823e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "1.005037815259e+0",
+    "a_r": "1.005037815259e+0",
+    "max_below": "9.997568944412e-1",
+    "max_above": "1.006739576264e+0",
+    "argmax_above": "1.005037815259e+0"
+   },
+   {
+    "r": "0.2",
+    "b": "4.928203230276e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "1.020620726160e+0",
+    "a_r": "1.020620726160e+0",
+    "max_below": "9.998554594174e-1",
+    "max_above": "1.005588313871e+0",
+    "argmax_above": "1.020620726160e+0"
+   },
+   {
+    "r": "2/7",
+    "b": "5.714285714286e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "1.043498389500e+0",
+    "a_r": "1.043498389500e+0",
+    "max_below": "9.999032247262e-1",
+    "max_above": "1.005228072061e+0",
+    "argmax_above": "1.043498389500e+0"
+   },
+   {
+    "r": "0.4",
+    "b": "6.583005244258e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "1.091089451180e+0",
+    "a_r": "1.091089451180e+0",
+    "max_below": "9.999429460583e-1",
+    "max_above": "1.005079395858e+0",
+    "argmax_above": "1.091089451180e+0"
+   },
+   {
+    "r": "0.6",
+    "b": "7.856406460551e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "1.250000000000e+0",
+    "a_r": "1.250000000000e+0",
+    "max_below": "9.999794768511e-1",
+    "max_above": "1.005399335679e+0",
+    "argmax_above": "1.250000000000e+0"
+   },
+   {
+    "r": "0.9",
+    "b": "9.493242008907e-1",
+    "max_at_b": "1.000000000000e+0",
+    "argmax_at_b": "2.294157338706e+0",
+    "a_r": "2.294157338706e+0",
+    "max_below": "9.999977607788e-1",
+    "max_above": "1.009343240336e+0",
+    "argmax_above": "2.294157338706e+0"
+   }
+  ],
+  "E_leading_constant_8G0_over_sqrtPi": "4.484825002690e+0",
+  "identity_M11_r27": [
+   {
+    "n": 0,
+    "direct": "9.892996329464e-1",
+    "closed": "9.892996329464e-1",
+    "rel": "4.043264413317e-60"
+   },
+   {
+    "n": 1,
+    "direct": "1.443368712368e-1",
+    "closed": "1.443368712368e-1",
+    "rel": "0.000000000000e+12"
+   },
+   {
+    "n": 2,
+    "direct": "2.105846571112e-2",
+    "closed": "2.105846571112e-2",
+    "rel": "1.899473615444e-59"
+   },
+   {
+    "n": 3,
+    "direct": "3.072388741051e-3",
+    "closed": "3.072388741051e-3",
+    "rel": "1.301918584245e-59"
+   },
+   {
+    "n": 4,
+    "direct": "4.482554762359e-4",
+    "closed": "4.482554762359e-4",
+    "rel": "4.015567227678e-59"
+   },
+   {
+    "n": 5,
+    "direct": "6.539959260063e-5",
+    "closed": "6.539959260063e-5",
+    "rel": "2.140686117954e-59"
+   },
+   {
+    "n": 6,
+    "direct": "9.541671968504e-6",
+    "closed": "9.541671968504e-6",
+    "rel": "2.829692750822e-59"
+   },
+   {
+    "n": 7,
+    "direct": "1.392111178895e-6",
+    "closed": "1.392111178895e-6",
+    "rel": "5.028334019669e-59"
+   },
+   {
+    "n": 8,
+    "direct": "2.031062837626e-7",
+    "closed": "2.031062837626e-7",
+    "rel": "5.908236701344e-59"
+   },
+   {
+    "n": 9,
+    "direct": "2.963280744330e-8",
+    "closed": "2.963280744330e-8",
+    "rel": "5.061957098969e-59"
+   },
+   {
+    "n": 10,
+    "direct": "4.323368340480e-9",
+    "closed": "4.323368340480e-9",
+    "rel": "6.707732886989e-59"
+   },
+   {
+    "n": 11,
+    "direct": "6.307709400543e-10",
+    "closed": "6.307709400543e-10",
+    "rel": "8.243880099410e-59"
+   },
+   {
+    "n": 12,
+    "direct": "9.202823990077e-11",
+    "closed": "9.202823990077e-11",
+    "rel": "8.475659219834e-59"
+   }
+  ],
+  "E_diagnostics_q47_t_half": [
+   {
+    "n": 2,
+    "S(2/7)": "2.105846571112e-2",
+    "<L,L''>": "4.552240081870e-2",
+    "<L,L''>/(n^2 S)": "5.404287454174e-1",
+    "||N^2L||/(n^2||L||)": "1.449491470195e+0",
+    "||M||^2/M23": "1.004395366644e+0",
+    "||M''||/(n^2||M||)": "2.062009076122e+0",
+    "||M'||/(n||M||)": "3.080169107401e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "4.020887114958e-1",
+     "T4/T2": "4.510618910679e-2",
+     "Tpsi/T2": "1.109241631573e+1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "1.169477926721e+0",
+     "T4/T2": "3.815719429202e-1",
+     "Tpsi/T2": "7.042897106021e+1",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 4,
+    "S(2/7)": "4.482554762359e-4",
+    "<L,L''>": "1.819218864949e-2",
+    "<L,L''>/(n^2 S)": "2.536526268771e+0",
+    "||N^2L||/(n^2||L||)": "1.293435792410e+0",
+    "||M||^2/M23": "1.017154010326e+0",
+    "||M''||/(n^2||M||)": "1.066255889434e+0",
+    "||M'||/(n||M||)": "2.574070835793e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "6.825774710576e-3",
+     "T4/T2": "7.794650698982e-4",
+     "Tpsi/T2": "1.513021173467e+0",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "2.521801612755e-2",
+     "T4/T2": "1.063933770797e-2",
+     "Tpsi/T2": "9.634645436807e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 6,
+    "S(2/7)": "9.541671968504e-6",
+    "<L,L''>": "1.099904712555e-3",
+    "<L,L''>/(n^2 S)": "3.202049785713e+0",
+    "||N^2L||/(n^2||L||)": "1.259430847277e+0",
+    "||M||^2/M23": "1.007726824105e+0",
+    "||M''||/(n^2||M||)": "7.221206760819e-1",
+    "||M'||/(n||M||)": "2.591717993173e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "5.242831482008e-4",
+     "T4/T2": "1.124725187061e-4",
+     "Tpsi/T2": "8.866845280436e-1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "2.479077776562e-3",
+     "T4/T2": "2.514750643674e-3",
+     "Tpsi/T2": "6.872879644284e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 8,
+    "S(2/7)": "2.031062837626e-7",
+    "<L,L''>": "4.594870023800e-5",
+    "<L,L''>/(n^2 S)": "3.534841108401e+0",
+    "||N^2L||/(n^2||L||)": "1.245615773944e+0",
+    "||M||^2/M23": "1.003346288337e+0",
+    "||M''||/(n^2||M||)": "5.460320499073e-1",
+    "||M'||/(n||M||)": "1.367717871421e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "5.168754346958e-5",
+     "T4/T2": "2.697246769415e-5",
+     "Tpsi/T2": "6.015279699672e-1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "3.091798565805e-4",
+     "T4/T2": "9.650976988271e-4",
+     "Tpsi/T2": "5.793246502407e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 10,
+    "S(2/7)": "4.323368340480e-9",
+    "<L,L''>": "1.614572871922e-6",
+    "<L,L''>/(n^2 S)": "3.734525362563e+0",
+    "||N^2L||/(n^2||L||)": "1.238311820928e+0",
+    "||M||^2/M23": "1.001573770800e+0",
+    "||M''||/(n^2||M||)": "4.389365973799e-1",
+    "||M'||/(n||M||)": "2.823306699186e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "5.739481120127e-6",
+     "T4/T2": "8.408134925434e-6",
+     "Tpsi/T2": "4.344750079945e-1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "4.287778770480e-5",
+     "T4/T2": "4.692660639180e-4",
+     "Tpsi/T2": "5.173039850284e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 12,
+    "S(2/7)": "9.202823990077e-11",
+    "<L,L''>": "5.125438354246e-8",
+    "<L,L''>/(n^2 S)": "3.867652140567e+0",
+    "||N^2L||/(n^2||L||)": "1.233843988252e+0",
+    "||M||^2/M23": "1.000793858962e+0",
+    "||M''||/(n^2||M||)": "3.669400721473e-1",
+    "||M'||/(n||M||)": "1.494539352827e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "6.855705510448e-7",
+     "T4/T2": "3.090879778852e-6",
+     "Tpsi/T2": "3.259546273477e-1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "6.322687935999e-6",
+     "T4/T2": "2.628943785251e-4",
+     "Tpsi/T2": "4.754059388154e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 16,
+    "S(2/7)": "4.169835015607e-14",
+    "<L,L''>": "4.306274736936e-11",
+    "<L,L''>/(n^2 S)": "4.034065047705e+0",
+    "||N^2L||/(n^2||L||)": "1.228702834147e+0",
+    "||M||^2/M23": "1.000194889253e+0",
+    "||M''||/(n^2||M||)": "2.762840431792e-1",
+    "||M'||/(n||M||)": "1.455060807777e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "1.123508027479e-8",
+     "T4/T2": "5.727684190401e-7",
+     "Tpsi/T2": "1.973137565048e-1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "1.533536496194e-7",
+     "T4/T2": "1.067124120914e-4",
+     "Tpsi/T2": "4.203320349725e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 20,
+    "S(2/7)": "1.889368315218e-17",
+    "<L,L''>": "3.124195326269e-14",
+    "<L,L''>/(n^2 S)": "4.133915157124e+0",
+    "||N^2L||/(n^2||L||)": "1.225851204447e+0",
+    "||M||^2/M23": "9.999915678530e-1",
+    "||M''||/(n^2||M||)": "2.215433675327e-1",
+    "||M'||/(n||M||)": "1.833740910634e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "2.075233015466e-10",
+     "T4/T2": "1.394565757348e-7",
+     "Tpsi/T2": "1.273406547618e-1",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "4.062335965903e-9",
+     "T4/T2": "5.343882946207e-5",
+     "Tpsi/T2": "3.844050486090e+0",
+     "-<R,R''> sign": "neg"
+    }
+   },
+   {
+    "n": 24,
+    "S(2/7)": "8.560800648444e-21",
+    "<L,L''>": "2.071267003112e-17",
+    "<L,L''>/(n^2 S)": "4.200482882211e+0",
+    "||N^2L||/(n^2||L||)": "1.224045965981e+0",
+    "||M||^2/M23": "9.999087443411e-1",
+    "||M''||/(n^2||M||)": "1.849059752579e-1",
+    "||M'||/(n||M||)": "1.167984717918e-61",
+    "eps=exp(-sqrt n)": {
+     "T3/T2": "4.148964053824e-12",
+     "T4/T2": "4.065087393851e-8",
+     "Tpsi/T2": "8.581791169895e-2",
+     "-<R,R''> sign": "neg"
+    },
+    "eps=n^(-1/2)": {
+     "T3/T2": "1.136145123728e-10",
+     "T4/T2": "3.048303186986e-5",
+     "Tpsi/T2": "3.584033044309e+0",
+     "-<R,R''> sign": "neg"
+    }
+   }
+  ],
+  "E_diagnostics_note": "Finite-n diagnostics for h_n WITHOUT moment correction; T3,T4 are exact inner products, Tpsi is the proof's crude bound eta_n ||R|| ||R''|| with eta_n from B_n. Not a proof.",
+  "radius_decay": {
+   "C_closed": "5.928731330335e-3",
+   "C_J": "8.529839450674e-1",
+   "rows": [
+    {
+     "x": "1e-3",
+     "delta/x^(9/4)": "5.936836989693e-3",
+     "ratio/C": "1.001367182776e+0"
+    },
+    {
+     "x": "1e-4",
+     "delta/x^(9/4)": "5.929540922825e-3",
+     "ratio/C": "1.000136554086e+0",
+     "local_exponent": "2.250534053778e+0"
+    },
+    {
+     "x": "1e-5",
+     "delta/x^(9/4)": "5.928812277378e-3",
+     "ratio/C": "1.000013653350e+0",
+     "local_exponent": "2.250053371103e+0"
+    },
+    {
+     "x": "1e-6",
+     "delta/x^(9/4)": "5.928739424904e-3",
+     "ratio/C": "1.000001365312e+0",
+     "local_exponent": "2.250005336587e+0"
+    },
+    {
+     "x": "1e-7",
+     "delta/x^(9/4)": "5.928732139791e-3",
+     "ratio/C": "1.000000136531e+0",
+     "local_exponent": "2.250000533652e+0"
+    },
+    {
+     "x": "1e-8",
+     "delta/x^(9/4)": "5.928731411281e-3",
+     "ratio/C": "1.000000013653e+0",
+     "local_exponent": "2.250000053365e+0"
+    },
+    {
+     "x": "1e-9",
+     "delta/x^(9/4)": "5.928731338430e-3",
+     "ratio/C": "1.000000001365e+0",
+     "local_exponent": "2.250000005337e+0"
+    },
+    {
+     "x": "1e-10",
+     "delta/x^(9/4)": "5.928731331145e-3",
+     "ratio/C": "1.000000000137e+0",
+     "local_exponent": "2.250000000534e+0"
+    },
+    {
+     "x": "1e-11",
+     "delta/x^(9/4)": "5.928731330416e-3",
+     "ratio/C": "1.000000000014e+0",
+     "local_exponent": "2.250000000053e+0"
+    },
+    {
+     "x": "1e-12",
+     "delta/x^(9/4)": "5.928731330343e-3",
+     "ratio/C": "1.000000000001e+0",
+     "local_exponent": "2.250000000005e+0"
+    },
+    {
+     "x": "1e-13",
+     "delta/x^(9/4)": "5.928731330336e-3",
+     "ratio/C": "1.000000000000e+0",
+     "local_exponent": "2.250000000001e+0"
+    },
+    {
+     "x": "1e-14",
+     "delta/x^(9/4)": "5.928731330335e-3",
+     "ratio/C": "1.000000000000e+0",
+     "local_exponent": "2.250000000000e+0"
+    }
+   ]
+  }
+ },
+ "python_optimize_flag": 1,
+ "runtime_s": 1.88,
+ "checks": [
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=0.05",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=0.05",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=0.05",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=0.05",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=0.05",
+   "passed": true,
+   "data": {
+    "a0": "1.001252348644e+0",
+    "ar": "1.001252348644e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=0.05",
+   "passed": true,
+   "data": {
+    "m": "9.996633806096e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=0.05",
+   "passed": true,
+   "data": {
+    "m": "1.008514334475e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=0.05",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=1.000625978397e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=1.000625978397e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=1.000625978397e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=1.001252348644e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=1.001252348644e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.05 a=1.001252348644e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.05 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.05 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.05 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.05 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.05 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.05 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=0.1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=0.1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=0.1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=0.1",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=0.1",
+   "passed": true,
+   "data": {
+    "a0": "1.005037815259e+0",
+    "ar": "1.005037815259e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=0.1",
+   "passed": true,
+   "data": {
+    "m": "9.997568944412e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=0.1",
+   "passed": true,
+   "data": {
+    "m": "1.006739576264e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=0.1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=1.002515743148e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=1.002515743148e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=1.002515743148e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=1.005037815259e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=1.005037815259e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.1 a=1.005037815259e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.1 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.1 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.1 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.1 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.1 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.1 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=0.2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=0.2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=0.2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=0.2",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=0.2",
+   "passed": true,
+   "data": {
+    "a0": "1.020620726160e+0",
+    "ar": "1.020620726160e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=0.2",
+   "passed": true,
+   "data": {
+    "m": "9.998554594174e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=0.2",
+   "passed": true,
+   "data": {
+    "m": "1.005588313871e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=0.2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=1.010257752338e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=1.010257752338e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=1.010257752338e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=1.020620726160e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=1.020620726160e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.2 a=1.020620726160e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.2 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.2 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.2 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.2 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.2 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.2 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=2/7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=2/7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=2/7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=2/7",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=2/7",
+   "passed": true,
+   "data": {
+    "a0": "1.043498389500e+0",
+    "ar": "1.043498389500e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=2/7",
+   "passed": true,
+   "data": {
+    "m": "9.999032247262e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=2/7",
+   "passed": true,
+   "data": {
+    "m": "1.005228072061e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=2/7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=1.021517689274e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=1.021517689274e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=1.021517689274e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=1.043498389500e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=1.043498389500e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=2/7 a=1.043498389500e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=2/7 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=2/7 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=2/7 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=2/7 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=2/7 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=2/7 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=0.4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=0.4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=0.4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=0.4",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=0.4",
+   "passed": true,
+   "data": {
+    "a0": "1.091089451180e+0",
+    "ar": "1.091089451180e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=0.4",
+   "passed": true,
+   "data": {
+    "m": "9.999429460583e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=0.4",
+   "passed": true,
+   "data": {
+    "m": "1.005079395858e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=0.4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=1.044552273072e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=1.044552273072e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=1.044552273072e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=1.091089451180e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=1.091089451180e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.4 a=1.091089451180e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.4 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.4 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.4 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.4 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.4 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.4 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=0.6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=0.6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=0.6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=0.6",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=0.6",
+   "passed": true,
+   "data": {
+    "a0": "1.250000000000e+0",
+    "ar": "1.250000000000e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=0.6",
+   "passed": true,
+   "data": {
+    "m": "9.999794768511e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=0.6",
+   "passed": true,
+   "data": {
+    "m": "1.005399335679e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=0.6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=1.118033988750e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=1.118033988750e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=1.118033988750e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=1.250000000000e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=1.250000000000e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.6 a=1.250000000000e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.6 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.6 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.6 a=2.718281828459e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.6 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.6 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.6 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: b(r) equals closed form 2w(1-w+w^2)/(1+w^4), r=0.9",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: tau=nu=lambda at a_r, r=0.9",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: (s-r)/(2-r-s)=phi(sqrt lambda) at s=b(r), r=0.9",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sup_a rate_s^2/rate_r = 1 at s=b(r) (grid+refine), r=0.9",
+   "passed": true,
+   "data": {
+    "m": "1.000000000000e+0"
+   }
+  },
+  {
+   "label": "S: maximiser at s=b(r) is a_r=(1-r^2)^(-1/2), r=0.9",
+   "passed": true,
+   "data": {
+    "a0": "2.294157338706e+0",
+    "ar": "2.294157338706e+0"
+   }
+  },
+  {
+   "label": "S: sup_a ratio < 1 for s=b(r)-1e-3, r=0.9",
+   "passed": true,
+   "data": {
+    "m": "9.999977607788e-1"
+   }
+  },
+  {
+   "label": "S: sup_a ratio > 1 for s=b(r)+1e-3 (divergence), r=0.9",
+   "passed": true,
+   "data": {
+    "m": "1.009343240336e+0"
+   }
+  },
+  {
+   "label": "S: s=1 diverges, r=0.9",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=4.978706836786e-2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=3.678794411714e-1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=1.514647595550e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=1.514647595550e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=1.514647595550e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=2.294157338706e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=2.294157338706e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region I criterion matches direct, r=0.9 a=2.294157338706e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.9 a=3.509762618438e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.9 a=3.509762618438e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.9 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.9 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: region III criterion matches direct, r=0.9 a=7.389056098931e+0",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: a_{2/7}=7/(3 sqrt5)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: tau_a(2/7)=kappa^2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: nu_a(2/7)=kappa^2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: kappa^2=(7-3sqrt5)/2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: tau_a(4/7)=kappa",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: kappa=-lambda_-(4/7) as in (M13)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(2/7)=4/7 (fixed point q=b(q/2))",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(q/2)>q for q=0.3",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(q/2)>q for q=0.5",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(q/2)>q for q=0.57",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(q/2)<q for q=0.58",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(q/2)<q for q=0.7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b(q/2)<q for q=1",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: Pi_a(2/7)=2(1+a)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "C: b=kappa^4 (so sqrt b=kappa^2<kappa)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: alpha=3/sqrt5, beta=sqrt5/3",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mu_1=(alpha+beta)/2=a",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: Gamma_0=17/15",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=0",
+   "passed": true,
+   "data": {
+    "rel": "4.043264413317e-60"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=1",
+   "passed": true,
+   "data": {
+    "rel": "0.000000000000e+12"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=2",
+   "passed": true,
+   "data": {
+    "rel": "1.899473615444e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=3",
+   "passed": true,
+   "data": {
+    "rel": "1.301918584245e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=4",
+   "passed": true,
+   "data": {
+    "rel": "4.015567227678e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=5",
+   "passed": true,
+   "data": {
+    "rel": "2.140686117954e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=6",
+   "passed": true,
+   "data": {
+    "rel": "2.829692750822e-59"
+   }
+  },
+  {
+   "label": "negative control caught: wrong closed form 2Pi^-1/2 kappa^(2n)(1+1/(n+1)) rejected at n=6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=7",
+   "passed": true,
+   "data": {
+    "rel": "5.028334019669e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=8",
+   "passed": true,
+   "data": {
+    "rel": "5.908236701344e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=9",
+   "passed": true,
+   "data": {
+    "rel": "5.061957098969e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=10",
+   "passed": true,
+   "data": {
+    "rel": "6.707732886989e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=11",
+   "passed": true,
+   "data": {
+    "rel": "8.243880099410e-59"
+   }
+  },
+  {
+   "label": "M11: ||T_sqrt(2/7) h_n||^2 = 2 Pi^-1/2 kappa^(2n), n=12",
+   "passed": true,
+   "data": {
+    "rel": "8.475659219834e-59"
+   }
+  },
+  {
+   "label": "M11 general: a=0.5 u=0.3 n=3",
+   "passed": true,
+   "data": {
+    "direct": "3.583312869878e-2",
+    "closed": "3.583312869878e-2"
+   }
+  },
+  {
+   "label": "M11 general: a=0.5 u=0.3 n=7",
+   "passed": true,
+   "data": {
+    "direct": "1.384426258826e-3",
+    "closed": "1.384426258826e-3"
+   }
+  },
+  {
+   "label": "M11 general: a=0.5 u=0.3 n=10",
+   "passed": true,
+   "data": {
+    "direct": "1.307227904711e-4",
+    "closed": "1.307227904711e-4"
+   }
+  },
+  {
+   "label": "M11 general: a=0.7 u=0.5 n=3",
+   "passed": true,
+   "data": {
+    "direct": "4.327942147859e-2",
+    "closed": "4.327942147859e-2"
+   }
+  },
+  {
+   "label": "M11 general: a=0.7 u=0.5 n=7",
+   "passed": true,
+   "data": {
+    "direct": "1.553671972787e-3",
+    "closed": "1.553671972787e-3"
+   }
+  },
+  {
+   "label": "M11 general: a=0.7 u=0.5 n=10",
+   "passed": true,
+   "data": {
+    "direct": "1.457749234464e-4",
+    "closed": "1.457749234464e-4"
+   }
+  },
+  {
+   "label": "M11 general: a=1.6 u=0.2 n=3",
+   "passed": true,
+   "data": {
+    "direct": "6.046132827706e-3",
+    "closed": "6.046132827706e-3"
+   }
+  },
+  {
+   "label": "M11 general: a=1.6 u=0.2 n=7",
+   "passed": true,
+   "data": {
+    "direct": "4.197855788112e-5",
+    "closed": "4.197855788112e-5"
+   }
+  },
+  {
+   "label": "M11 general: a=1.6 u=0.2 n=10",
+   "passed": true,
+   "data": {
+    "direct": "1.108824339091e-6",
+    "closed": "1.108824339091e-6"
+   }
+  },
+  {
+   "label": "M11 general: a=3 u=0.1 n=3",
+   "passed": true,
+   "data": {
+    "direct": "7.037890931618e-3",
+    "closed": "7.037890931618e-3"
+   }
+  },
+  {
+   "label": "M11 general: a=3 u=0.1 n=7",
+   "passed": true,
+   "data": {
+    "direct": "6.463511025571e-4",
+    "closed": "6.463511025571e-4"
+   }
+  },
+  {
+   "label": "M11 general: a=3 u=0.1 n=10",
+   "passed": true,
+   "data": {
+    "direct": "1.476238090645e-4",
+    "closed": "1.476238090645e-4"
+   }
+  },
+  {
+   "label": "S: sampled sup|h_n| <= B_n=sqrt(2e)(n+1)^(1/4), n=2",
+   "passed": true,
+   "data": {
+    "sup": "1.145931157209e+0",
+    "Bn": "3.068616051637e+0"
+   }
+  },
+  {
+   "label": "S: sampled sup|h_n| <= sqrt2 (consistent with Cramer/Indritz remark), n=2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sampled sup|h_n| <= B_n=sqrt(2e)(n+1)^(1/4), n=6",
+   "passed": true,
+   "data": {
+    "sup": "1.042157799810e+0",
+    "Bn": "3.792597450690e+0"
+   }
+  },
+  {
+   "label": "S: sampled sup|h_n| <= sqrt2 (consistent with Cramer/Indritz remark), n=6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sampled sup|h_n| <= B_n=sqrt(2e)(n+1)^(1/4), n=10",
+   "passed": true,
+   "data": {
+    "sup": "9.969301564049e-1",
+    "Bn": "4.246297422329e+0"
+   }
+  },
+  {
+   "label": "S: sampled sup|h_n| <= sqrt2 (consistent with Cramer/Indritz remark), n=10",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sampled sup|h_n| <= B_n=sqrt(2e)(n+1)^(1/4), n=20",
+   "passed": true,
+   "data": {
+    "sup": "9.389632068928e-1",
+    "Bn": "4.991338946442e+0"
+   }
+  },
+  {
+   "label": "S: sampled sup|h_n| <= sqrt2 (consistent with Cramer/Indritz remark), n=20",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "S: sampled sup|h_n| <= B_n=sqrt(2e)(n+1)^(1/4), n=40",
+   "passed": true,
+   "data": {
+    "sup": "8.849119933111e-1",
+    "Bn": "5.900084111261e+0"
+   }
+  },
+  {
+   "label": "S: sampled sup|h_n| <= sqrt2 (consistent with Cramer/Indritz remark), n=40",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: A(r)=alpha, B(r)=beta",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: theta A = theta B = 0 at r=2/7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: Gamma_1 = 17/15 - 7 sqrt5/5",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: Gamma_2 = 47/30 - 7 sqrt5/10",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "negative control caught: wrong Gamma_1 (7sqrt5/6) rejected",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=2",
+   "passed": true,
+   "data": {
+    "d": "4.552240081870e-2",
+    "c": "4.552240081870e-2"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=2",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=4",
+   "passed": true,
+   "data": {
+    "d": "1.819218864949e-2",
+    "c": "1.819218864949e-2"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=4",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=6",
+   "passed": true,
+   "data": {
+    "d": "1.099904712555e-3",
+    "c": "1.099904712555e-3"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=8",
+   "passed": true,
+   "data": {
+    "d": "4.594870023800e-5",
+    "c": "4.594870023800e-5"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=8",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=8",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=8",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=8 eps=exp(-sqrt n)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=8 eps=n^(-1/2)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=10",
+   "passed": true,
+   "data": {
+    "d": "1.614572871922e-6",
+    "c": "1.614572871922e-6"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=10",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=10",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=10",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=10 eps=exp(-sqrt n)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=10 eps=n^(-1/2)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=12",
+   "passed": true,
+   "data": {
+    "d": "5.125438354246e-8",
+    "c": "5.125438354246e-8"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=12",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=12",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=12",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=12 eps=exp(-sqrt n)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=12 eps=n^(-1/2)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=16",
+   "passed": true,
+   "data": {
+    "d": "4.306274736936e-11",
+    "c": "4.306274736936e-11"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=16",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=16",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=16",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=16 eps=exp(-sqrt n)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=16 eps=n^(-1/2)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=20",
+   "passed": true,
+   "data": {
+    "d": "3.124195326269e-14",
+    "c": "3.124195326269e-14"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=20",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=20",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=20",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=20 eps=exp(-sqrt n)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=20 eps=n^(-1/2)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: <L,L''>(1/2) direct = closed form, n=24",
+   "passed": true,
+   "data": {
+    "d": "2.071267003112e-17",
+    "c": "2.071267003112e-17"
+   }
+  },
+  {
+   "label": "E: <L,L''>(1/2)=8Pi^-1/2 kappa^2n (G0 n^2+G1 n+G2), n=24",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: exact mean degree n(alpha+beta)/2+a^2r^2/Pi, n=24",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E: mean degree >= mu_1 n, n=24",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=24 eps=exp(-sqrt n)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: polynomial part -<R,R''>(1/2)<0, n=24 eps=n^(-1/2)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "E diag: <L,L''>/(n^2 S) near 4 Gamma_0 at n=24",
+   "passed": true,
+   "data": {
+    "v": "4.200482882211e+0"
+   }
+  },
+  {
+   "label": "R: reproduces Part I table radius at Q=0.50",
+   "passed": true,
+   "data": {
+    "d": "1.713400783249e-5"
+   }
+  },
+  {
+   "label": "R: reproduces Part I table radius at Q=0.53",
+   "passed": true,
+   "data": {
+    "d": "4.851964253305e-6"
+   }
+  },
+  {
+   "label": "R: reproduces Part I table radius at Q=0.56",
+   "passed": true,
+   "data": {
+    "d": "2.571724471215e-7"
+   }
+  },
+  {
+   "label": "R: reproduces Part I table radius at Q=0.57",
+   "passed": true,
+   "data": {
+    "d": "2.356888270929e-9"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-6",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-6",
+   "passed": true,
+   "data": {
+    "pe": "2.250005336587e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-7",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-7",
+   "passed": true,
+   "data": {
+    "pe": "2.250000533652e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-8",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-8",
+   "passed": true,
+   "data": {
+    "pe": "2.250000053365e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-9",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-9",
+   "passed": true,
+   "data": {
+    "pe": "2.250000005337e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-10",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-10",
+   "passed": true,
+   "data": {
+    "pe": "2.250000000534e+0"
+   }
+  },
+  {
+   "label": "negative control caught: wrong exponent p=2 rejected",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "negative control caught: wrong exponent p=5/2 rejected",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-11",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-11",
+   "passed": true,
+   "data": {
+    "pe": "2.250000000053e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-12",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-12",
+   "passed": true,
+   "data": {
+    "pe": "2.250000000005e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-13",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-13",
+   "passed": true,
+   "data": {
+    "pe": "2.250000000001e+0"
+   }
+  },
+  {
+   "label": "R: delta_Q/x^(9/4) -> C, x=1e-14",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "R: local exponent -> 9/4 at x=1e-14",
+   "passed": true,
+   "data": {
+    "pe": "2.250000000000e+0"
+   }
+  },
+  {
+   "label": "negative control caught: wrong envelope s*=b(r)+0.01 rejected (ratio>1 at b+0.005)",
+   "passed": true,
+   "data": {}
+  },
+  {
+   "label": "negative control caught: wrong extremal a=1 at r=2/7 rejected (tau!=nu)",
+   "passed": true,
+   "data": {}
+  }
+ ]
+}

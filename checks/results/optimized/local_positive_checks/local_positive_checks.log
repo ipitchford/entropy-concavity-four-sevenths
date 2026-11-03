@@ -1,0 +1,166 @@
+PASS [manuscript] q=0.50 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I §4
+PASS [manuscript] q=0.50 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4
+PASS [manuscript] q=0.50 [closed_form]: B_1,B_2>0
+PASS [manuscript] q=0.50 [closed_form]: E_1,E_2>0 (positivity of (P7))
+PASS [manuscript] q=0.50 [closed_form]: sqrt(2 beta P_0) = P_0 c
+PASS [manuscript] q=0.50 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r
+PASS [manuscript] q=0.50 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [manuscript] q=0.50 [closed_form]: Mehler kernel composition B*B = A_r^eps
+PASS [manuscript] q=0.50 [closed_form]: direct square root (P9) equals Mehler parametrisation
+PASS [manuscript] q=0.50 [closed_form]: P > beta_B > 0
+PASS [manuscript] q=0.50 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [manuscript] q=0.50 [closed_form]: B_1,B_2 < beta_B (strict (P2))
+PASS [manuscript] q=0.50 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B
+PASS [manuscript] q=0.50 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [manuscript] q=0.50 [closed_form]: binding term of (P21) is 1/(16 A_q)
+PASS [manuscript] q=0.50 [closed_form]: Section I.7 table s = 0.5202847075 to displayed digits
+PASS [manuscript] q=0.50 [closed_form]: Section I.7 table eps = 0.1375827353 to displayed digits
+PASS [manuscript] q=0.50 [closed_form]: Section I.7 table gap = 0.0473458334 to displayed digits
+PASS [manuscript] q=0.50 [closed_form]: Section I.7 table J = 1.4320544662 to displayed digits
+PASS [manuscript] q=0.50 [closed_form]: Section I.7 table radius = 1.7134e-5 to displayed digits
+PASS [diagnostic_only] q=0.50 [closed_form]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [closed_form]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [closed_form]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [closed_form]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [closed_form]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [closed_form]: cosine k=20 consistent with (P6)
+PASS [manuscript] q=0.53 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I §4
+PASS [manuscript] q=0.53 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4
+PASS [manuscript] q=0.53 [closed_form]: B_1,B_2>0
+PASS [manuscript] q=0.53 [closed_form]: E_1,E_2>0 (positivity of (P7))
+PASS [manuscript] q=0.53 [closed_form]: sqrt(2 beta P_0) = P_0 c
+PASS [manuscript] q=0.53 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r
+PASS [manuscript] q=0.53 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [manuscript] q=0.53 [closed_form]: Mehler kernel composition B*B = A_r^eps
+PASS [manuscript] q=0.53 [closed_form]: direct square root (P9) equals Mehler parametrisation
+PASS [manuscript] q=0.53 [closed_form]: P > beta_B > 0
+PASS [manuscript] q=0.53 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [manuscript] q=0.53 [closed_form]: B_1,B_2 < beta_B (strict (P2))
+PASS [manuscript] q=0.53 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B
+PASS [manuscript] q=0.53 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [manuscript] q=0.53 [closed_form]: binding term of (P21) is 1/(16 A_q)
+PASS [manuscript] q=0.53 [closed_form]: Section I.7 table s = 0.5419050561 to displayed digits
+PASS [manuscript] q=0.53 [closed_form]: Section I.7 table eps = 0.0870079716 to displayed digits
+PASS [manuscript] q=0.53 [closed_form]: Section I.7 table gap = 0.0296201831 to displayed digits
+PASS [manuscript] q=0.53 [closed_form]: Section I.7 table J = 1.5902847695 to displayed digits
+PASS [manuscript] q=0.53 [closed_form]: Section I.7 table radius = 4.8520e-6 to displayed digits
+PASS [diagnostic_only] q=0.53 [closed_form]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [closed_form]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [closed_form]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [closed_form]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [closed_form]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [closed_form]: cosine k=20 consistent with (P6)
+PASS [manuscript] q=0.56 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I §4
+PASS [manuscript] q=0.56 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4
+PASS [manuscript] q=0.56 [closed_form]: B_1,B_2>0
+PASS [manuscript] q=0.56 [closed_form]: E_1,E_2>0 (positivity of (P7))
+PASS [manuscript] q=0.56 [closed_form]: sqrt(2 beta P_0) = P_0 c
+PASS [manuscript] q=0.56 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r
+PASS [manuscript] q=0.56 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [manuscript] q=0.56 [closed_form]: Mehler kernel composition B*B = A_r^eps
+PASS [manuscript] q=0.56 [closed_form]: direct square root (P9) equals Mehler parametrisation
+PASS [manuscript] q=0.56 [closed_form]: P > beta_B > 0
+PASS [manuscript] q=0.56 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [manuscript] q=0.56 [closed_form]: B_1,B_2 < beta_B (strict (P2))
+PASS [manuscript] q=0.56 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B
+PASS [manuscript] q=0.56 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [manuscript] q=0.56 [closed_form]: binding term of (P21) is 1/(16 A_q)
+PASS [manuscript] q=0.56 [closed_form]: Section I.7 table s = 0.5633202098 to displayed digits
+PASS [manuscript] q=0.56 [closed_form]: Section I.7 table eps = 0.0262722883 to displayed digits
+PASS [manuscript] q=0.56 [closed_form]: Section I.7 table gap = 0.0088148014 to displayed digits
+PASS [manuscript] q=0.56 [closed_form]: Section I.7 table J = 2.1257516652 to displayed digits
+PASS [manuscript] q=0.56 [closed_form]: Section I.7 table radius = 2.5717e-7 to displayed digits
+PASS [diagnostic_only] q=0.56 [closed_form]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [closed_form]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [closed_form]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [closed_form]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [closed_form]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [closed_form]: cosine k=20 consistent with (P6)
+PASS [manuscript] q=0.57 [closed_form]: 0<r<q<s<b(r)<1 (P5), Part I §4
+PASS [manuscript] q=0.57 [closed_form]: b(q/2)>q iff q<4/7 via (3q/2)^2-q(1+q/2)=q(7q-4)/4
+PASS [manuscript] q=0.57 [closed_form]: B_1,B_2>0
+PASS [manuscript] q=0.57 [closed_form]: E_1,E_2>0 (positivity of (P7))
+PASS [manuscript] q=0.57 [closed_form]: sqrt(2 beta P_0) = P_0 c
+PASS [manuscript] q=0.57 [closed_form]: (r+c)/(1+c) = sqrt(2r(1+r)) - r
+PASS [manuscript] q=0.57 [closed_form]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [manuscript] q=0.57 [closed_form]: Mehler kernel composition B*B = A_r^eps
+PASS [manuscript] q=0.57 [closed_form]: direct square root (P9) equals Mehler parametrisation
+PASS [manuscript] q=0.57 [closed_form]: P > beta_B > 0
+PASS [manuscript] q=0.57 [closed_form]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [manuscript] q=0.57 [closed_form]: B_1,B_2 < beta_B (strict (P2))
+PASS [manuscript] q=0.57 [closed_form]: (P2) in the form 2a_s^eps +- b_s vs P +- beta_B
+PASS [manuscript] q=0.57 [closed_form]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [manuscript] q=0.57 [closed_form]: binding term of (P21) is 1/(16 A_q)
+PASS [manuscript] q=0.57 [closed_form]: Section I.7 table s = 0.5704164638 to displayed digits
+PASS [manuscript] q=0.57 [closed_form]: Section I.7 table eps = 0.0033875871 to displayed digits
+PASS [manuscript] q=0.57 [closed_form]: Section I.7 table gap = 0.0011301518 to displayed digits
+PASS [manuscript] q=0.57 [closed_form]: Section I.7 table J = 3.5370963892 to displayed digits
+PASS [manuscript] q=0.57 [closed_form]: Section I.7 table radius = 2.3569e-9 to displayed digits
+PASS [diagnostic_only] q=0.57 [closed_form]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [closed_form]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [closed_form]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [closed_form]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [closed_form]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [closed_form]: cosine k=20 consistent with (P6)
+PASS [manuscript] four Section I.7 table rows evaluated
+PASS [auxiliary_not_used_by_manuscript] half-signal geometric moments 4,12,84,876,12180
+PASS [auxiliary_not_used_by_manuscript] half-signal sum B_d^2 = 928
+PASS [auxiliary_not_used_by_manuscript] half-signal number-operator kernel sum = 133
+PASS [auxiliary_not_used_by_manuscript] half-signal second-derivative kernel sum = 8126464
+PASS [auxiliary_not_used_by_manuscript] half-signal 133 < 12^2
+PASS [auxiliary_not_used_by_manuscript] half-signal 8126464 < 3000^2
+PASS [auxiliary_not_used_by_manuscript] half-signal 1572/30000 < 1/16
+PASS [auxiliary_not_used_by_manuscript] q=0.50 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.50 [dyadic]: Mehler kernel composition B*B = A_r^eps
+PASS [auxiliary_not_used_by_manuscript] q=0.50 [dyadic]: direct square root (P9) equals Mehler parametrisation
+PASS [auxiliary_not_used_by_manuscript] q=0.50 [dyadic]: P > beta_B > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.50 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [auxiliary_not_used_by_manuscript] q=0.50 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [diagnostic_only] q=0.50 [dyadic]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [dyadic]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [dyadic]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [dyadic]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [dyadic]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.50 [dyadic]: cosine k=20 consistent with (P6)
+PASS [auxiliary_not_used_by_manuscript] q=0.53 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.53 [dyadic]: Mehler kernel composition B*B = A_r^eps
+PASS [auxiliary_not_used_by_manuscript] q=0.53 [dyadic]: direct square root (P9) equals Mehler parametrisation
+PASS [auxiliary_not_used_by_manuscript] q=0.53 [dyadic]: P > beta_B > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.53 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [auxiliary_not_used_by_manuscript] q=0.53 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [diagnostic_only] q=0.53 [dyadic]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [dyadic]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [dyadic]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [dyadic]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [dyadic]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.53 [dyadic]: cosine k=20 consistent with (P6)
+PASS [auxiliary_not_used_by_manuscript] q=0.56 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.56 [dyadic]: Mehler kernel composition B*B = A_r^eps
+PASS [auxiliary_not_used_by_manuscript] q=0.56 [dyadic]: direct square root (P9) equals Mehler parametrisation
+PASS [auxiliary_not_used_by_manuscript] q=0.56 [dyadic]: P > beta_B > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.56 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [auxiliary_not_used_by_manuscript] q=0.56 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [diagnostic_only] q=0.56 [dyadic]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [dyadic]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [dyadic]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [dyadic]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [dyadic]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.56 [dyadic]: cosine k=20 consistent with (P6)
+PASS [auxiliary_not_used_by_manuscript] q=0.57 [dyadic]: epsilon>0 with strict kernel gap (P2) > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.57 [dyadic]: Mehler kernel composition B*B = A_r^eps
+PASS [auxiliary_not_used_by_manuscript] q=0.57 [dyadic]: direct square root (P9) equals Mehler parametrisation
+PASS [auxiliary_not_used_by_manuscript] q=0.57 [dyadic]: P > beta_B > 0
+PASS [auxiliary_not_used_by_manuscript] q=0.57 [dyadic]: 2 alpha_u^eps > beta_u > 0, u=r,s
+PASS [auxiliary_not_used_by_manuscript] q=0.57 [dyadic]: delta_q>0 with rho=q/s<1 and R_rho<1 (P21)
+PASS [diagnostic_only] q=0.57 [dyadic]: cosine k=0 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [dyadic]: cosine k=1 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [dyadic]: cosine k=2 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [dyadic]: cosine k=5 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [dyadic]: cosine k=10 consistent with (P6)
+PASS [diagnostic_only] q=0.57 [dyadic]: cosine k=20 consistent with (P6)
+PASS [diagnostic_only] bilinear sharpness q=0.49: ratio(1000)<1 below 1/2
+PASS [diagnostic_only] bilinear sharpness q=0.51: ratio(1000)>1 above 1/2
+PASS [diagnostic_only] bilinear sharpness q=0.56: ratio(1000)>1 above 1/2
+PASS [diagnostic_only] bilinear sharpness q=4/7: ratio(1000)>1 above 1/2
+PASS [diagnostic_only] bilinear sharpness q=0.58: ratio(1000)>1 above 1/2
+All checks passed: 165 checks (81 manuscript-claim checks) in 0.010 s.

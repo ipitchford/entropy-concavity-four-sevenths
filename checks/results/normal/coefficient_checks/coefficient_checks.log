@@ -1,0 +1,44 @@
+q=4/7; target C''/(n C)=-8.94427191; target norm prefactor=0.394854185758; scope=coefficient-only
+  n= 2  C''/(n C)=-8.23040598309  n*err=+1.4277  normalised norm=0.396589714676  n*rel.norm err=+0.0088
+  n= 4  C''/(n C)=-8.50879997151  n*err=+1.7419  normalised norm=0.401627518538  n*rel.norm err=+0.0686
+  n= 8  C''/(n C)=-8.72331162155  n*err=+1.7677  normalised norm=0.396175481715  n*rel.norm err=+0.0268
+  n=12  C''/(n C)=-8.79729002482  n*err=+1.7638  normalised norm=0.395167644293  n*rel.norm err=+0.0095
+  n=16  C''/(n C)=-8.83393598223  n*err=+1.7654  normalised norm=0.394931138596  n*rel.norm err=+0.0031
+  n=24  C''/(n C)=-8.87057629357  n*err=+1.7687  normalised norm=0.39481815308  n*rel.norm err=-0.0022
+q=0.575; target C''/(n C)=-8.9350224044; target norm prefactor=0.39320420326; scope=q>4/7
+  n= 2  C''/(n C)=-8.23013678647  n*err=+1.4098  normalised norm=0.39490055313  n*rel.norm err=+0.0086
+  n= 4  C''/(n C)=-8.50674635099  n*err=+1.7131  normalised norm=0.399656221714  n*rel.norm err=+0.0656
+  n= 8  C''/(n C)=-8.71803961424  n*err=+1.7359  normalised norm=0.394381090279  n*rel.norm err=+0.0239
+  n=12  C''/(n C)=-8.79068505762  n*err=+1.7320  normalised norm=0.393441438288  n*rel.norm err=+0.0072
+  n=16  C''/(n C)=-8.82667626946  n*err=+1.7335  normalised norm=0.393229508451  n*rel.norm err=+0.0010
+  n=24  C''/(n C)=-8.86266216514  n*err=+1.7366  normalised norm=0.393136484219  n*rel.norm err=-0.0041
+q=0.6; target C''/(n C)=-8.87384457213; target norm prefactor=0.382594146653; scope=q>4/7
+  n= 2  C''/(n C)=-8.22782795382  n*err=+1.2920  normalised norm=0.383794679398  n*rel.norm err=+0.0063
+  n= 4  C''/(n C)=-8.49160945939  n*err=+1.5289  normalised norm=0.38697199047  n*rel.norm err=+0.0458
+  n= 8  C''/(n C)=-8.68188116997  n*err=+1.5357  normalised norm=0.382882568184  n*rel.norm err=+0.0060
+  n=12  C''/(n C)=-8.74614305847  n*err=+1.5324  normalised norm=0.382357035956  n*rel.norm err=-0.0074
+  n=16  C''/(n C)=-8.77801570941  n*err=+1.5333  normalised norm=0.382295411606  n*rel.norm err=-0.0125
+  n=24  C''/(n C)=-8.8098805868  n*err=+1.5351  normalised norm=0.382326429272  n*rel.norm err=-0.0168
+q=0.75; target C''/(n C)=-8.60288748595; target norm prefactor=0.342048866173; scope=q>4/7
+  n= 2  C''/(n C)=-8.20367280942  n*err=+0.7984  normalised norm=0.337090567543  n*rel.norm err=-0.0290
+  n= 4  C''/(n C)=-8.39168845461  n*err=+0.8448  normalised norm=0.338655559255  n*rel.norm err=-0.0397
+  n= 8  C''/(n C)=-8.49880005075  n*err=+0.8327  normalised norm=0.339431912543  n*rel.norm err=-0.0612
+  n=12  C''/(n C)=-8.53370217221  n*err=+0.8302  normalised norm=0.340164089051  n*rel.norm err=-0.0661
+  n=16  C''/(n C)=-8.55105651129  n*err=+0.8293  normalised norm=0.340590786423  n*rel.norm err=-0.0682
+  n=24  C''/(n C)=-8.56836822118  n*err=+0.8285  normalised norm=0.341049575276  n*rel.norm err=-0.0701
+q=1; target C''/(n C)=-8.347987116; target norm prefactor=0.318309886184; scope=q>4/7
+  n= 2  C''/(n C)=-8.15002612057  n*err=+0.3959  normalised norm=0.303891618865  n*rel.norm err=-0.0906
+  n= 4  C''/(n C)=-8.25089438962  n*err=+0.3884  normalised norm=0.30976003383  n*rel.norm err=-0.1074
+  n= 8  C''/(n C)=-8.30031670941  n*err=+0.3814  normalised norm=0.31373617871  n*rel.norm err=-0.1149
+  n=12  C''/(n C)=-8.316381098  n*err=+0.3793  normalised norm=0.315209584032  n*rel.norm err=-0.1169
+  n=16  C''/(n C)=-8.32434727503  n*err=+0.3782  normalised norm=0.315966738984  n*rel.norm err=-0.1178
+  n=24  C''/(n C)=-8.33227022658  n*err=+0.3772  normalised norm=0.316736312094  n*rel.norm err=-0.1186
+Exact rational surrogate d=1/20, e=1/10, c=7/40; target curvature per n=-88/9
+  n=2: recurrence vs 17 edge-count configurations; C''/(n C)=-9672/1115 = -8.67443946188
+  n=4: recurrence vs 138 edge-count configurations; C''/(n C)=-615118712/66967863 = -9.18528208075
+  n=6: recurrence vs 670 edge-count configurations; C''/(n C)=-506681332285352/54041817589979 = -9.37572707361
+Exact b=0 identity check: C''/C = -8n
+  n=2: C''/C=-16/1; PASS
+  n=4: C''/C=-32/1; PASS
+  n=6: C''/C=-48/1; PASS
+All checks passed: 233 checks in 1.193 seconds.

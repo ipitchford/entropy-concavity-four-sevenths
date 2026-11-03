@@ -1,0 +1,1963 @@
+{
+  "scope": "High-precision (80-digit Decimal) checks of (M11), (M20)-(M21) and the Lemma II.5 two-weight matrix; finite cases, not a proof.",
+  "decimal_precision": 80,
+  "relative_tolerance": "1E-40",
+  "hermite_truncation": 360,
+  "python_optimize_flag": 0,
+  "hermite_coefficients": [
+    {
+      "n": 2,
+      "max_rel_error_j_le_14": "7.85e-78"
+    },
+    {
+      "n": 4,
+      "max_rel_error_j_le_14": "2.94e-76"
+    },
+    {
+      "n": 6,
+      "max_rel_error_j_le_14": "9.28e-75"
+    }
+  ],
+  "M11": [
+    {
+      "n": 2,
+      "r": "0.3",
+      "hermite": "0.023349330451271944255",
+      "formula": "0.023349330451271944255",
+      "rel_error": "3.85e-79"
+    },
+    {
+      "n": 2,
+      "r": "0.6",
+      "hermite": "0.11589691492555981585",
+      "formula": "0.11589691492555981585",
+      "rel_error": "8.63e-80"
+    },
+    {
+      "n": 2,
+      "r": "1",
+      "hermite": "0.58000065278341022719",
+      "formula": "0.58000065278341022719",
+      "rel_error": "3.28e-79"
+    },
+    {
+      "n": 4,
+      "r": "0.3",
+      "hermite": "0.00055070656330779831924",
+      "formula": "0.00055070656330779831924",
+      "rel_error": "4.54e-79"
+    },
+    {
+      "n": 4,
+      "r": "0.6",
+      "hermite": "0.014514559721061560022",
+      "formula": "0.014514559721061560022",
+      "rel_error": "5.51e-79"
+    },
+    {
+      "n": 4,
+      "r": "1",
+      "hermite": "0.40628439843722887656",
+      "formula": "0.40628439843722887656",
+      "rel_error": "2.46e-79"
+    },
+    {
+      "n": 6,
+      "r": "0.3",
+      "hermite": "0.000012994205520823323814",
+      "formula": "0.000012994205520823323814",
+      "rel_error": "4.62e-79"
+    },
+    {
+      "n": 6,
+      "r": "0.6",
+      "hermite": "0.0019700501386341484890",
+      "formula": "0.0019700501386341484890",
+      "rel_error": "6.09e-79"
+    },
+    {
+      "n": 6,
+      "r": "1",
+      "hermite": "0.32847532977765024930",
+      "formula": "0.32847532977765024930",
+      "rel_error": "3.96e-79"
+    }
+  ],
+  "M20_M21": [
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.45",
+      "hermite_norm_squared": "0.004134549500857327830970558",
+      "formula": "0.004134549500857327830970558",
+      "rel_error": "9.43e-79",
+      "tail_ratio": "9.58e-164"
+    },
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.5",
+      "hermite_norm_squared": "0.004220951180892669962634879",
+      "formula": "0.004220951180892669962634879",
+      "rel_error": "1.04e-78",
+      "tail_ratio": "9.57e-164"
+    },
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.6",
+      "hermite_norm_squared": "0.003880728555934207347078925",
+      "formula": "0.003880728555934207347078925",
+      "rel_error": "6.44e-79",
+      "tail_ratio": "9.59e-164"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.45",
+      "hermite_norm_squared": "0.00004358994937599892241220832",
+      "formula": "0.00004358994937599892241220832",
+      "rel_error": "8.26e-79",
+      "tail_ratio": "3.58e-155"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.5",
+      "hermite_norm_squared": "0.00004549474410893672847141644",
+      "formula": "0.00004549474410893672847141644",
+      "rel_error": "8.57e-79",
+      "tail_ratio": "3.57e-155"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.6",
+      "hermite_norm_squared": "0.00003823392967805915379864946",
+      "formula": "0.00003823392967805915379864946",
+      "rel_error": "6.80e-79",
+      "tail_ratio": "3.61e-155"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.45",
+      "hermite_norm_squared": "5.992409525438755752681184e-7",
+      "formula": "5.992409525438755752681184e-7",
+      "rel_error": "1.18e-78",
+      "tail_ratio": "1.56e-147"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.5",
+      "hermite_norm_squared": "6.396242913204132867715788e-7",
+      "formula": "6.396242913204132867715788e-7",
+      "rel_error": "9.38e-80",
+      "tail_ratio": "1.55e-147"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.6",
+      "hermite_norm_squared": "4.906212872702011318199873e-7",
+      "formula": "4.906212872702011318199873e-7",
+      "rel_error": "5.50e-79",
+      "tail_ratio": "1.58e-147"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.45",
+      "hermite_norm_squared": "0.005365430053906159757216586",
+      "formula": "0.005365430053906159757216586",
+      "rel_error": "1.01e-78",
+      "tail_ratio": "4.96e-157"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.5",
+      "hermite_norm_squared": "0.005477518738443138474426838",
+      "formula": "0.005477518738443138474426838",
+      "rel_error": "9.49e-79",
+      "tail_ratio": "4.95e-157"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.6",
+      "hermite_norm_squared": "0.005036142239663689082205834",
+      "formula": "0.005036142239663689082205834",
+      "rel_error": "9.13e-79",
+      "tail_ratio": "4.97e-157"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.45",
+      "hermite_norm_squared": "0.00007552871152219418484636012",
+      "formula": "0.00007552871152219418484636012",
+      "rel_error": "1.17e-78",
+      "tail_ratio": "1.39e-148"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.5",
+      "hermite_norm_squared": "0.00007882234945947348864984944",
+      "formula": "0.00007882234945947348864984944",
+      "rel_error": "1.67e-78",
+      "tail_ratio": "1.38e-148"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.6",
+      "hermite_norm_squared": "0.00006626590835941021423543942",
+      "formula": "0.00006626590835941021423543942",
+      "rel_error": "1.13e-78",
+      "tail_ratio": "1.40e-148"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.45",
+      "hermite_norm_squared": "0.000001394877055243049116049834",
+      "formula": "0.000001394877055243049116049834",
+      "rel_error": "1.43e-78",
+      "tail_ratio": "4.49e-141"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.5",
+      "hermite_norm_squared": "0.000001488519250469863572673778",
+      "formula": "0.000001488519250469863572673778",
+      "rel_error": "1.55e-78",
+      "tail_ratio": "4.47e-141"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.6",
+      "hermite_norm_squared": "0.000001142895604095713801632191",
+      "formula": "0.000001142895604095713801632191",
+      "rel_error": "6.12e-79",
+      "tail_ratio": "4.56e-141"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.45",
+      "hermite_norm_squared": "0.1488656809804252975027212",
+      "formula": "0.1488656809804252975027212",
+      "rel_error": "2.69e-79",
+      "tail_ratio": "6.00e-87"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.5",
+      "hermite_norm_squared": "0.1519458094326163497760885",
+      "formula": "0.1519458094326163497760885",
+      "rel_error": "5.92e-79",
+      "tail_ratio": "6.00e-87"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.6",
+      "hermite_norm_squared": "0.1398146236711671480251110",
+      "formula": "0.1398146236711671480251110",
+      "rel_error": "5.01e-79",
+      "tail_ratio": "6.01e-87"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.45",
+      "hermite_norm_squared": "0.07429434845493148496899187",
+      "formula": "0.07429434845493148496899187",
+      "rel_error": "6.60e-79",
+      "tail_ratio": "4.77e-80"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.5",
+      "hermite_norm_squared": "0.07744000845760498227083649",
+      "formula": "0.07744000845760498227083649",
+      "rel_error": "5.04e-79",
+      "tail_ratio": "4.76e-80"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.6",
+      "hermite_norm_squared": "0.06543030560173369748312155",
+      "formula": "0.06543030560173369748312155",
+      "rel_error": "5.50e-79",
+      "tail_ratio": "4.79e-80"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.45",
+      "hermite_norm_squared": "0.04890275518606742247832351",
+      "formula": "0.04890275518606742247832351",
+      "rel_error": "5.11e-79",
+      "tail_ratio": "4.36e-74"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.5",
+      "hermite_norm_squared": "0.05205434222009326134124612",
+      "formula": "0.05205434222009326134124612",
+      "rel_error": "9.22e-79",
+      "tail_ratio": "4.35e-74"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.6",
+      "hermite_norm_squared": "0.04038552797382820223565223",
+      "formula": "0.04038552797382820223565223",
+      "rel_error": "5.94e-79",
+      "tail_ratio": "4.39e-74"
+    }
+  ],
+  "lemma4": [
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.004047250471624834714122681",
+      "formula": "0.004047250471624834714122681",
+      "rel_error": "8.89e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.004005619992702177872361742",
+      "formula": "0.004005619992702177872361742",
+      "rel_error": "5.74e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.004177526003575711150506830",
+      "formula": "0.004177526003575711150506830",
+      "rel_error": "7.42e-79",
+      "min_entry": "0.019703468"
+    },
+    {
+      "q": "4/7",
+      "n": 2,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.004005619992702177872361742",
+      "formula": "0.004005619992702177872361742",
+      "rel_error": "6.99e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.00004170580156976249314816058",
+      "formula": "0.00004170580156976249314816058",
+      "rel_error": "7.67e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.00004082373148368279174640125",
+      "formula": "0.00004082373148368279174640125",
+      "rel_error": "5.39e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.00004453211205515439954809627",
+      "formula": "0.00004453211205515439954809627",
+      "rel_error": "7.63e-79",
+      "min_entry": "0.019703468"
+    },
+    {
+      "q": "4/7",
+      "n": 4,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.00004082373148368279174640125",
+      "formula": "0.00004082373148368279174640125",
+      "rel_error": "6.86e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "5.601704143902549451503980e-7",
+      "formula": "5.601704143902549451503980e-7",
+      "rel_error": "1.23e-78",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "5.422068650974055496068446e-7",
+      "formula": "5.422068650974055496068446e-7",
+      "rel_error": "1.84e-79",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "6.191021545316355227814367e-7",
+      "formula": "6.191021545316355227814367e-7",
+      "rel_error": "5.65e-79",
+      "min_entry": "0.019703468"
+    },
+    {
+      "q": "4/7",
+      "n": 6,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "5.422068650974055496068446e-7",
+      "formula": "5.422068650974055496068446e-7",
+      "rel_error": "1.84e-80",
+      "min_entry": "0.015149057"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.005252178329474436793903001",
+      "formula": "0.005252178329474436793903001",
+      "rel_error": "9.90e-79",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.005198169307021749865978709",
+      "formula": "0.005198169307021749865978709",
+      "rel_error": "9.81e-79",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.005421183636200963054295879",
+      "formula": "0.005421183636200963054295879",
+      "rel_error": "7.56e-79",
+      "min_entry": "0.024340171"
+    },
+    {
+      "q": "0.6",
+      "n": 2,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.005198169307021749865978709",
+      "formula": "0.005198169307021749865978709",
+      "rel_error": "9.81e-79",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.00007227078487069076072340885",
+      "formula": "0.00007227078487069076072340885",
+      "rel_error": "7.89e-79",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.00007074521860160009575438633",
+      "formula": "0.00007074521860160009575438633",
+      "rel_error": "1.10e-78",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.00007715788553214636718747518",
+      "formula": "0.00007715788553214636718747518",
+      "rel_error": "1.22e-78",
+      "min_entry": "0.024340171"
+    },
+    {
+      "q": "0.6",
+      "n": 4,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.00007074521860160009575438633",
+      "formula": "0.00007074521860160009575438633",
+      "rel_error": "1.51e-78",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.000001304272000150366653678353",
+      "formula": "0.000001304272000150366653678353",
+      "rel_error": "1.92e-78",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.000001262595229766057201054694",
+      "formula": "0.000001262595229766057201054694",
+      "rel_error": "1.98e-78",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.000001440935279777234755792212",
+      "formula": "0.000001440935279777234755792212",
+      "rel_error": "7.63e-79",
+      "min_entry": "0.024340171"
+    },
+    {
+      "q": "0.6",
+      "n": 6,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.000001262595229766057201054694",
+      "formula": "0.000001262595229766057201054694",
+      "rel_error": "2.06e-78",
+      "min_entry": "0.019270570"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.1457539978536817440056052",
+      "formula": "0.1457539978536817440056052",
+      "rel_error": "5.49e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.1442691543080530950104817",
+      "formula": "0.1442691543080530950104817",
+      "rel_error": "9.70e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.1503978565378826983334677",
+      "formula": "0.1503978565378826983334677",
+      "rel_error": "3.32e-79",
+      "min_entry": "0.13406532"
+    },
+    {
+      "q": "1",
+      "n": 2,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.1442691543080530950104817",
+      "formula": "0.1442691543080530950104817",
+      "rel_error": "9.70e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.07118222743162930459397608",
+      "formula": "0.07118222743162930459397608",
+      "rel_error": "8.57e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.06972154798291340707350143",
+      "formula": "0.06972154798291340707350143",
+      "rel_error": "9.18e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.07585086714726593481901709",
+      "formula": "0.07585086714726593481901709",
+      "rel_error": "5.27e-79",
+      "min_entry": "0.13406532"
+    },
+    {
+      "q": "1",
+      "n": 4,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.06972154798291340707350143",
+      "formula": "0.06972154798291340707350143",
+      "rel_error": "6.45e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.5",
+      "s": "0.6",
+      "hermite_inner_product": "0.04585010952032514161499989",
+      "formula": "0.04585010952032514161499989",
+      "rel_error": "9.16e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.45",
+      "s": "0.6",
+      "hermite_inner_product": "0.04444050440501066698804881",
+      "formula": "0.04444050440501066698804881",
+      "rel_error": "7.43e-79",
+      "min_entry": "0.11680403"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.45",
+      "s": "0.5",
+      "hermite_inner_product": "0.05045394015182911024412493",
+      "formula": "0.05045394015182911024412493",
+      "rel_error": "6.54e-79",
+      "min_entry": "0.13406532"
+    },
+    {
+      "q": "1",
+      "n": 6,
+      "t": "0.6",
+      "s": "0.45",
+      "hermite_inner_product": "0.04444050440501066698804881",
+      "formula": "0.04444050440501066698804881",
+      "rel_error": "1.01e-78",
+      "min_entry": "0.11680403"
+    }
+  ],
+  "lemma4_positivity": [
+    {
+      "q": "4/7",
+      "grid": "t,s in {0.42,0.44,...,0.58}",
+      "min_entry": "0.01697082123"
+    },
+    {
+      "q": "0.6",
+      "grid": "t,s in {0.42,0.44,...,0.58}",
+      "min_entry": "0.02129841038"
+    },
+    {
+      "q": "1",
+      "grid": "t,s in {0.42,0.44,...,0.58}",
+      "min_entry": "0.1237085467"
+    }
+  ],
+  "number_of_checks": 178,
+  "number_failed": 0,
+  "failed_labels": [],
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "label": "h_n n=2: generating-function coefficients equal direct integration, j<=14",
+      "passed": true,
+      "detail": "7.85e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4)"
+    },
+    {
+      "label": "(M11) n=2 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "3.85e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "(M11) n=2 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "8.63e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "(M11) n=2 r=1: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "3.28e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "h_n n=4: generating-function coefficients equal direct integration, j<=14",
+      "passed": true,
+      "detail": "2.94e-76",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4)"
+    },
+    {
+      "label": "(M11) n=4 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "4.54e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "(M11) n=4 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "5.51e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "(M11) n=4 r=1: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "2.46e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "h_n n=6: generating-function coefficients equal direct integration, j<=14",
+      "passed": true,
+      "detail": "9.28e-75",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M4)"
+    },
+    {
+      "label": "(M11) n=6 r=0.3: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "4.62e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "(M11) n=6 r=0.6: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "6.09e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "(M11) n=6 r=1: sum_j beta_j^2 r^j equals generating-function coefficient",
+      "passed": true,
+      "detail": "3.96e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M11)"
+    },
+    {
+      "label": "q=4/7 n=2 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "9.58e-164",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0197035",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "9.43e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=2 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "9.57e-164",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0242579",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.04e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=2 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "9.59e-164",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0151491",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "6.44e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=4 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "3.58e-155",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0197035",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "8.26e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=4 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "3.57e-155",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0242579",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "8.57e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=4 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "3.61e-155",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0151491",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "6.80e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=6 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "1.56e-147",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0197035",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.18e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=6 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "1.55e-147",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0242579",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "9.38e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=4/7 n=6 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "1.58e-147",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=4/7 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0151491",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=4/7 n=6 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.50e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=2 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.96e-157",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0243402",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.01e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=2 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.95e-157",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0294098",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "9.49e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=2 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.97e-157",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0192706",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "9.13e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=4 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "1.39e-148",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0243402",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.17e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=4 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "1.38e-148",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0294098",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.67e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=4 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "1.40e-148",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0192706",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.13e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=6 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.49e-141",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0243402",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.43e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=6 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.47e-141",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0294098",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "1.55e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=0.6 n=6 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.56e-141",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=0.6 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.0192706",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=0.6 n=6 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "6.12e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=2 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "6.00e-87",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.134065",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=2 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "2.69e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=2 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "6.00e-87",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.151327",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=2 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.92e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=2 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "6.01e-87",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.116804",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=2 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.01e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=4 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.77e-80",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.134065",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=4 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "6.60e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=4 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.76e-80",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.151327",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=4 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.04e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=4 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.79e-80",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.116804",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=4 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.50e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=6 t=0.45: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.36e-74",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.45: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.134065",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=6 t=0.45: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.11e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=6 t=0.5: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.35e-74",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.5: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.151327",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=6 t=0.5: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "9.22e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "q=1 n=6 t=0.6: truncation tail of ||M_t||^2 negligible",
+      "passed": true,
+      "detail": "4.39e-74",
+      "group": "manuscript",
+      "manuscript_ref": "numerical truncation"
+    },
+    {
+      "label": "q=1 t=0.6: entries of B(t-1/2) positive",
+      "passed": true,
+      "detail": "0.116804",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M21), Lemma II.3 hypothesis"
+    },
+    {
+      "label": "(M20)-(M21) q=1 n=6 t=0.6: ||M_t||^2 = 4(n!)^2 C_n(t-1/2)/Delta",
+      "passed": true,
+      "detail": "5.94e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II (M20),(M21)"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "1e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.5: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "0e-81",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.6: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "1e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=4/7: every entry of G(t,s) > 0 for t,s in [0.42,0.58]",
+      "passed": true,
+      "detail": "0.0169708",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=2 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "8.89e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=2 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "5.74e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=2 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.42e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=2 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "6.99e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=4 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.67e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=4 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "5.39e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=4 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.63e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=4 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "6.86e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=6 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.23e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=6 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.84e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=6 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "5.65e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 n=6 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.84e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=4/7 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "1e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.5: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "0e-81",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.6: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "1e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=0.6: every entry of G(t,s) > 0 for t,s in [0.42,0.58]",
+      "passed": true,
+      "detail": "0.0212984",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=2 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.90e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=2 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.81e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=2 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.56e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=2 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.81e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=4 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.89e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=4 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.10e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=4 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.22e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=4 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.51e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=6 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.92e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=6 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.98e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=6 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.63e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 n=6 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "2.06e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=0.6 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "1e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.5: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "1e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.6: G(t,t) equals B(t-1/2) of (M21)",
+      "passed": true,
+      "detail": "2e-80",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5, (M21)"
+    },
+    {
+      "label": "Lemma II.5 q=1: every entry of G(t,s) > 0 for t,s in [0.42,0.58]",
+      "passed": true,
+      "detail": "0.123709",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=2 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "5.49e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=2 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.70e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=2 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "3.32e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=2 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.70e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=4 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "8.57e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=4 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.18e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=4 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "5.27e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=4 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "6.45e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=6 t=0.5 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "9.16e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.5 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=6 t=0.45 s=0.6: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "7.43e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45 s=0.6: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=6 t=0.45 s=0.5: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "6.54e-79",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.45 s=0.5: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 n=6 t=0.6 s=0.45: <M_t,M_s> = 4(n!)^2 C_n(G(t,s))/Delta",
+      "passed": true,
+      "detail": "1.01e-78",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "Lemma II.5 q=1 t=0.6 s=0.45: G entries positive",
+      "passed": true,
+      "detail": "",
+      "group": "manuscript",
+      "manuscript_ref": "Part II Lemma II.5"
+    },
+    {
+      "label": "expected number of identity cases evaluated",
+      "passed": true,
+      "detail": "(27, 36)",
+      "group": "manuscript",
+      "manuscript_ref": null
+    }
+  ],
+  "elapsed_seconds": 2.8276641250004104
+}

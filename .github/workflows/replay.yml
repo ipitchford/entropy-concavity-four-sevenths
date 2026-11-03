@@ -1,0 +1,46 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  quick:
+    name: Checkers and negative controls (blocking, under a minute)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Run every checker under -I -B and -I -B -O in a copy (each exits non-zero on any failed check)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          C="$RUNNER_TEMP/pkg"; mkdir -p "$C"; cp -R . "$C"; cd "$C/checks"
+          for s in coefficient_checks local_positive_checks identity_checks extension_checks; do
+            python -I -B $s.py --output-dir "$RUNNER_TEMP/out/normal/$s"
+            python -I -B -O $s.py --output-dir "$RUNNER_TEMP/out/optimized/$s"
+          done
+          python -I -B negative_controls.py --output "$RUNNER_TEMP/out/negative_controls.json"
+      - name: Compare outputs with the shipped results (runtime and interpreter fields ignored)
+        run: |
+          python -I -B - "$GITHUB_WORKSPACE/checks/results" "$RUNNER_TEMP/out" <<'PY'
+          import json, sys
+          from pathlib import Path
+          IGN = {"python_version", "elapsed_seconds", "python", "work_directory", "runtime_s"}
+          def s(x):
+              if isinstance(x, dict): return {k: s(v) for k, v in x.items() if k not in IGN}
+              if isinstance(x, list): return [s(v) for v in x]
+              return x
+          a, b = Path(sys.argv[1]), Path(sys.argv[2]); bad = []
+          for p in sorted(a.rglob("*.json")):
+              q = b / p.relative_to(a)
+              if not q.exists() or s(json.loads(p.read_text())) != s(json.loads(q.read_text())): bad.append(str(p.relative_to(a)))
+          print("differs:", bad) if bad else print("all JSON outputs identical")
+          sys.exit(1 if bad else 0)
+          PY
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"
